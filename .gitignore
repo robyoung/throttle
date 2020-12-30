@@ -97,3 +97,10 @@ Thumbs.db
 # Ignore built ts files
 __tests__/runner/*
 lib/**/*
+
+# Unignore hidden files (so fzf picks them up easily)
+!/.github
+!/.gitignore
+
+# Ignore Google Cloud credentials
+cloud-credentials.json
