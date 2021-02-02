@@ -8,10 +8,10 @@ async function run(): Promise<void> {
       core.getInput('filename'),
       {timeout: core.getInput('timeout')}
     )
-    await mutex.acquire()
+    await mutex.release()
   } catch (error) {
     core.error(error.message)
-    core.setFailed('Failed to acquire lock')
+    core.setFailed('Failed to release lock')
   }
 }
 

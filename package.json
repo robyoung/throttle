@@ -9,7 +9,9 @@
     "format": "prettier --write **/*.ts",
     "format-check": "prettier --check **/*.ts",
     "lint": "eslint src/**/*.ts",
-    "package": "ncc build --source-map --license licenses.txt",
+    "package-main": "ncc build lib/main.js --out dist/main --source-map --license licenses.txt",
+    "package-post": "ncc build lib/post.js --out dist/post --source-map --license licenses.txt",
+    "package": "npm run package-main && npm run package-post",
     "test": "jest",
     "all": "npm run build && npm run format && npm run lint && npm run package && npm test"
   },
@@ -25,7 +27,9 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "^1.2.6"
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0",
+    "@google-cloud/storage": "^5.7.4"
   },
   "devDependencies": {
     "@types/jest": "^26.0.20",
