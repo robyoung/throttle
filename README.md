@@ -1,8 +1,6 @@
-<p align="center">
-  <a href="https://github.com/actions/typescript-action/actions"><img alt="typescript-action status" src="https://github.com/actions/typescript-action/workflows/build-test/badge.svg"></a>
-</p>
-
 # Throttle
+
+[![build-test](https://github.com/robyoung/throttle/actions/workflows/test.yml/badge.svg)](https://github.com/robyoung/throttle/actions/workflows/test.yml)
 
 A GitHub action for serializing jobs across workflow runs and more with Google Cloud Storage.
 
