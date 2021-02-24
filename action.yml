@@ -1,6 +1,11 @@
-name: 'Throttle'
+name: 'action throttle'
 description: 'Serialize jobs across workflow runs and more with Google Cloud Storage'
 author: 'Rob Young'
+
+branding:
+  icon: 'clock'
+  color: 'blue'
+
 inputs:
   bucket:
     required: true
