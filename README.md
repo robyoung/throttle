@@ -2,102 +2,57 @@
   <a href="https://github.com/actions/typescript-action/actions"><img alt="typescript-action status" src="https://github.com/actions/typescript-action/workflows/build-test/badge.svg"></a>
 </p>
 
-# Create a JavaScript Action using TypeScript
+# Throttle
 
-Use this template to bootstrap the creation of a TypeScript action.:rocket:
+A GitHub action for serializing jobs across workflow runs and more with Google Cloud Storage.
 
-This template includes compilation support, tests, a validation workflow, publishing, and versioning guidance.  
+If you just need to serialize workflow runs within a single workflow you could also use [turnstyle](https://github.com/softprops/turnstyle).
 
-If you are new, there's also a simpler introduction.  See the [Hello World JavaScript Action](https://github.com/actions/hello-world-javascript-action)
+Throttle uses a file in a Google Cloud Storage bucket as a mutex with which you can create
+critical sections that can only have one job running across many workflows. The idea is inspided
+by [gcslock](https://github.com/mco-de/gcslock).
 
-## Create an action from this template
+## Contents
 
-Click the `Use this Template` and provide the new repo details for your action
+- [Usage](#usage)
+- [Inputs](#inputs)
 
-## Code in Main
+## Usage
 
-Install the dependencies  
-```bash
-$ npm install
-```
-
-Build the typescript and package it for distribution
-```bash
-$ npm run build && npm run package
-```
-
-Run the tests :heavy_check_mark:  
-```bash
-$ npm test
-
- PASS  ./index.test.js
-  ✓ throws invalid number (3ms)
-  ✓ wait 500 ms (504ms)
-  ✓ test runs (95ms)
-
-...
-```
-
-## Change action.yml
-
-The action.yml contains defines the inputs and output for your action.
-
-Update the action.yml with your name, description, inputs and outputs for your action.
-
-See the [documentation](https://help.github.com/en/articles/metadata-syntax-for-github-actions)
-
-## Change the Code
-
-Most toolkit and CI/CD operations involve async operations so the action is run in an async function.
-
-```javascript
-import * as core from '@actions/core';
-...
-
-async function run() {
-  try { 
-      ...
-  } 
-  catch (error) {
-    core.setFailed(error.message);
-  }
-}
-
-run()
-```
-
-See the [toolkit documentation](https://github.com/actions/toolkit/blob/master/README.md#packages) for the various packages.
-
-## Publish to a distribution branch
-
-Actions are run from GitHub repos so we will checkin the packed dist folder. 
-
-Then run [ncc](https://github.com/zeit/ncc) and push the results:
-```bash
-$ npm run package
-$ git add dist
-$ git commit -a -m "prod dependencies"
-$ git push origin releases/v1
-```
-
-Note: We recommend using the `--license` option for ncc, which will create a license file for all of the production node modules used in your project.
-
-Your action is now published! :rocket: 
-
-See the [versioning documentation](https://github.com/actions/toolkit/blob/master/docs/action-versioning.md)
-
-## Validate
-
-You can now validate the action by referencing `./` in a workflow in your repo (see [test.yml](.github/workflows/test.yml))
+Throttle depends on the GCP credentials being available. In this example they are set by the
+[google-github-actions/setup-gcloud](https://github.com/google-github-actions/setup-gcloud) action.
 
 ```yaml
-uses: ./
-with:
-  milliseconds: 1000
+- name: Set up Cloud SDK
+  uses: google-github-actions/setup-gcloud@master
+  with:
+    service_account_key: ${{ secrets.GCP_KEY }}
+    export_default_credentials: true
+
+- name: Start critical section
+  uses: robyoung/throttle@v1
+  with:
+    bucket: throttle-test
+    filename: test
+
+- name: Do some work
+  run: echo "I'm in the critical section"
 ```
 
-See the [actions tab](https://github.com/actions/typescript-action/actions) for runs of this action! :rocket:
+The mutex is automatically released at the end of the job.
 
-## Usage:
+Timing out can be handled with the `timeout` option or use the job level option [`timeout-minutes`](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idtimeout-minutes).
 
-After testing you can [create a v1 tag](https://github.com/actions/toolkit/blob/master/docs/action-versioning.md) to reference the stable and latest V1 action
+## Inputs
+
+| Name       | Required | Default | Description |
+| ---------- | -------- | ------- | ----------- |
+| `bucket`   | _required_ |         | The Google Cloud Storage bucket name to use. |
+| `filename` | _optional_ | `lock`  | The name of the file to use as a lock. |
+| `timeout`  | _optional_ | `10m`   | The timeout before acquiring the lock should fail in the format 10m for 10 minutes or 10s for 10 seconds. |
+
+### Environment variables
+
+| Name | Description |
+| ---- | ----------- |
+| `GOOGLE_APPLICATION_CREDENTIALS` | The [Google Application Credentials](https://cloud.google.com/docs/authentication/production) that should be used to create the lock file. |

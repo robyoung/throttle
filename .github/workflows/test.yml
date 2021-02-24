@@ -1,4 +1,5 @@
 name: 'build-test'
+
 on: # rebuild any PRs and main branch changes
   pull_request:
   push:
@@ -11,19 +12,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: |
-          npm install
-      - run: |
-          npm run all
+
+      - run: npm install
+
+      - run: npm run all
 
   test: # make sure the action works on a clean machine without building
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+
       - uses: google-github-actions/setup-gcloud@master
         with:
           service_account_key: ${{ secrets.GCP_KEY }}
           export_default_credentials: true
+
       - uses: ./
         with:
           bucket: throttle-test

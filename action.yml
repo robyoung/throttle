@@ -1,16 +1,16 @@
-name: 'Your name here'
-description: 'Provide a description here'
-author: 'Your name or organization here'
+name: 'Throttle'
+description: 'Serialize jobs across workflow runs and more with Google Cloud Storage'
+author: 'Rob Young'
 inputs:
   bucket:
     required: true
     description: 'Name of Google Cloud Storage bucket to use.'
   filename:
-    required: true
+    required: false
     description: 'Filename to use as a lock.'
     default: 'lock'
   timeout:
-    required: true
+    required: false
     description: 'Timeout before acquiring the lock should fail.'
     default: '10m'
 
