@@ -6,7 +6,7 @@ require('./sourcemap-register.js');module.exports =
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse("{\"name\":\"@google-cloud/storage\",\"description\":\"Cloud Storage Client Library for Node.js\",\"version\":\"5.7.4\",\"license\":\"Apache-2.0\",\"author\":\"Google Inc.\",\"engines\":{\"node\":\">=10\"},\"repository\":\"googleapis/nodejs-storage\",\"main\":\"./build/src/index.js\",\"types\":\"./build/src/index.d.ts\",\"files\":[\"build/src\",\"!build/src/**/*.map\"],\"keywords\":[\"google apis client\",\"google api client\",\"google apis\",\"google api\",\"google\",\"google cloud platform\",\"google cloud\",\"cloud\",\"google storage\",\"storage\"],\"scripts\":{\"predocs\":\"npm run compile\",\"docs\":\"jsdoc -c .jsdoc.js\",\"system-test\":\"mocha build/system-test --timeout 600000 --exit\",\"conformance-test\":\"mocha build/conformance-test\",\"preconformance-test\":\"npm run compile\",\"presystem-test\":\"npm run compile\",\"test\":\"c8 mocha build/test\",\"pretest\":\"npm run compile\",\"lint\":\"gts check\",\"samples-test\":\"npm link && cd samples/ && npm link ../ && npm test && cd ../\",\"all-test\":\"npm test && npm run system-test && npm run samples-test\",\"check\":\"gts check\",\"clean\":\"gts clean\",\"compile\":\"tsc -p .\",\"fix\":\"gts fix\",\"prepare\":\"npm run compile\",\"docs-test\":\"linkinator docs\",\"predocs-test\":\"npm run docs\",\"benchwrapper\":\"node bin/benchwrapper.js\",\"prelint\":\"cd samples; npm link ../; npm install\",\"precompile\":\"gts clean\",\"api-extractor\":\"api-extractor run --local\",\"api-documenter\":\"api-documenter yaml --input-folder=temp\"},\"dependencies\":{\"@google-cloud/common\":\"^3.5.0\",\"@google-cloud/paginator\":\"^3.0.0\",\"@google-cloud/promisify\":\"^2.0.0\",\"arrify\":\"^2.0.0\",\"async-retry\":\"^1.3.1\",\"compressible\":\"^2.0.12\",\"date-and-time\":\"^0.14.2\",\"duplexify\":\"^4.0.0\",\"extend\":\"^3.0.2\",\"gaxios\":\"^4.0.0\",\"gcs-resumable-upload\":\"^3.1.0\",\"get-stream\":\"^6.0.0\",\"hash-stream-validation\":\"^0.2.2\",\"mime\":\"^2.2.0\",\"mime-types\":\"^2.0.8\",\"onetime\":\"^5.1.0\",\"p-limit\":\"^3.0.1\",\"pumpify\":\"^2.0.0\",\"snakeize\":\"^0.1.0\",\"stream-events\":\"^1.0.1\",\"xdg-basedir\":\"^4.0.0\"},\"devDependencies\":{\"@google-cloud/pubsub\":\"^2.0.0\",\"@grpc/grpc-js\":\"^1.0.3\",\"@grpc/proto-loader\":\"^0.5.1\",\"@microsoft/api-documenter\":\"^7.8.10\",\"@microsoft/api-extractor\":\"^7.8.10\",\"@types/async-retry\":\"^1.4.2\",\"@types/compressible\":\"^2.0.0\",\"@types/concat-stream\":\"^1.6.0\",\"@types/configstore\":\"^4.0.0\",\"@types/date-and-time\":\"^0.13.0\",\"@types/extend\":\"^3.0.0\",\"@types/mime\":\"^2.0.0\",\"@types/mime-types\":\"^2.1.0\",\"@types/mocha\":\"^8.0.0\",\"@types/nock\":\"^10.0.0\",\"@types/node\":\"^11.13.4\",\"@types/node-fetch\":\"^2.1.3\",\"@types/proxyquire\":\"^1.3.28\",\"@types/pumpify\":\"^1.4.1\",\"@types/sinon\":\"^9.0.0\",\"@types/tmp\":\"0.2.0\",\"@types/uuid\":\"^8.0.0\",\"@types/xdg-basedir\":\"^2.0.0\",\"c8\":\"^7.0.0\",\"codecov\":\"^3.0.0\",\"form-data\":\"^3.0.0\",\"gts\":\"^2.0.0\",\"jsdoc\":\"^3.6.2\",\"jsdoc-fresh\":\"^1.0.1\",\"jsdoc-region-tag\":\"^1.0.2\",\"linkinator\":\"^2.0.0\",\"mocha\":\"^8.0.0\",\"nock\":\"~13.0.0\",\"node-fetch\":\"^2.2.0\",\"normalize-newline\":\"^3.0.0\",\"proxyquire\":\"^2.1.3\",\"sinon\":\"^9.0.0\",\"tmp\":\"^0.2.0\",\"typescript\":\"^3.8.3\",\"uuid\":\"^8.0.0\",\"yargs\":\"^16.0.0\"}}");
+module.exports = JSON.parse("{\"_args\":[[\"@google-cloud/storage@5.8.1\",\"/home/robyoung/dev/github/robyoung/throttle\"]],\"_from\":\"@google-cloud/storage@5.8.1\",\"_id\":\"@google-cloud/storage@5.8.1\",\"_inBundle\":false,\"_integrity\":\"sha512-qP8gCJ2myyMN3JMJN12d82Oo8VBSDO8vO4/x56dtQZX9+WISqcagurntnJVyFX885tIOtS97bsyv8qR1xv6HMg==\",\"_location\":\"/@google-cloud/storage\",\"_phantomChildren\":{\"yocto-queue\":\"0.1.0\"},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"@google-cloud/storage@5.8.1\",\"name\":\"@google-cloud/storage\",\"escapedName\":\"@google-cloud%2fstorage\",\"scope\":\"@google-cloud\",\"rawSpec\":\"5.8.1\",\"saveSpec\":null,\"fetchSpec\":\"5.8.1\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@google-cloud/storage/-/storage-5.8.1.tgz\",\"_spec\":\"5.8.1\",\"_where\":\"/home/robyoung/dev/github/robyoung/throttle\",\"author\":{\"name\":\"Google Inc.\"},\"bugs\":{\"url\":\"https://github.com/googleapis/nodejs-storage/issues\"},\"dependencies\":{\"@google-cloud/common\":\"^3.6.0\",\"@google-cloud/paginator\":\"^3.0.0\",\"@google-cloud/promisify\":\"^2.0.0\",\"arrify\":\"^2.0.0\",\"async-retry\":\"^1.3.1\",\"compressible\":\"^2.0.12\",\"date-and-time\":\"^0.14.2\",\"duplexify\":\"^4.0.0\",\"extend\":\"^3.0.2\",\"gaxios\":\"^4.0.0\",\"gcs-resumable-upload\":\"^3.1.3\",\"get-stream\":\"^6.0.0\",\"hash-stream-validation\":\"^0.2.2\",\"mime\":\"^2.2.0\",\"mime-types\":\"^2.0.8\",\"onetime\":\"^5.1.0\",\"p-limit\":\"^3.0.1\",\"pumpify\":\"^2.0.0\",\"snakeize\":\"^0.1.0\",\"stream-events\":\"^1.0.1\",\"xdg-basedir\":\"^4.0.0\"},\"description\":\"Cloud Storage Client Library for Node.js\",\"devDependencies\":{\"@google-cloud/pubsub\":\"^2.0.0\",\"@grpc/grpc-js\":\"^1.0.3\",\"@grpc/proto-loader\":\"^0.5.1\",\"@microsoft/api-documenter\":\"^7.8.10\",\"@microsoft/api-extractor\":\"^7.8.10\",\"@types/async-retry\":\"^1.4.2\",\"@types/compressible\":\"^2.0.0\",\"@types/concat-stream\":\"^1.6.0\",\"@types/configstore\":\"^4.0.0\",\"@types/date-and-time\":\"^0.13.0\",\"@types/extend\":\"^3.0.0\",\"@types/mime\":\"^2.0.0\",\"@types/mime-types\":\"^2.1.0\",\"@types/mocha\":\"^8.0.0\",\"@types/nock\":\"^10.0.0\",\"@types/node\":\"^11.13.4\",\"@types/node-fetch\":\"^2.1.3\",\"@types/proxyquire\":\"^1.3.28\",\"@types/pumpify\":\"^1.4.1\",\"@types/sinon\":\"^9.0.0\",\"@types/tmp\":\"0.2.0\",\"@types/uuid\":\"^8.0.0\",\"@types/xdg-basedir\":\"^2.0.0\",\"c8\":\"^7.0.0\",\"codecov\":\"^3.0.0\",\"form-data\":\"^4.0.0\",\"gts\":\"^2.0.0\",\"jsdoc\":\"^3.6.2\",\"jsdoc-fresh\":\"^1.0.1\",\"jsdoc-region-tag\":\"^1.0.2\",\"linkinator\":\"^2.0.0\",\"mocha\":\"^8.0.0\",\"nock\":\"~13.0.0\",\"node-fetch\":\"^2.2.0\",\"normalize-newline\":\"^3.0.0\",\"proxyquire\":\"^2.1.3\",\"sinon\":\"^9.0.0\",\"tmp\":\"^0.2.0\",\"typescript\":\"^3.8.3\",\"uuid\":\"^8.0.0\",\"yargs\":\"^16.0.0\"},\"engines\":{\"node\":\">=10\"},\"files\":[\"build/src\",\"!build/src/**/*.map\"],\"homepage\":\"https://github.com/googleapis/nodejs-storage#readme\",\"keywords\":[\"google apis client\",\"google api client\",\"google apis\",\"google api\",\"google\",\"google cloud platform\",\"google cloud\",\"cloud\",\"google storage\",\"storage\"],\"license\":\"Apache-2.0\",\"main\":\"./build/src/index.js\",\"name\":\"@google-cloud/storage\",\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/googleapis/nodejs-storage.git\"},\"scripts\":{\"all-test\":\"npm test && npm run system-test && npm run samples-test\",\"api-documenter\":\"api-documenter yaml --input-folder=temp\",\"api-extractor\":\"api-extractor run --local\",\"benchwrapper\":\"node bin/benchwrapper.js\",\"check\":\"gts check\",\"clean\":\"gts clean\",\"compile\":\"tsc -p .\",\"conformance-test\":\"mocha build/conformance-test\",\"docs\":\"jsdoc -c .jsdoc.js\",\"docs-test\":\"linkinator docs\",\"fix\":\"gts fix\",\"lint\":\"gts check\",\"precompile\":\"gts clean\",\"preconformance-test\":\"npm run compile\",\"predocs\":\"npm run compile\",\"predocs-test\":\"npm run docs\",\"prelint\":\"cd samples; npm link ../; npm install\",\"prepare\":\"npm run compile\",\"presystem-test\":\"npm run compile\",\"pretest\":\"npm run compile\",\"samples-test\":\"npm link && cd samples/ && npm link ../ && npm test && cd ../\",\"system-test\":\"mocha build/system-test --timeout 600000 --exit\",\"test\":\"c8 mocha build/test\"},\"types\":\"./build/src/index.d.ts\",\"version\":\"5.8.1\"}");
 
 /***/ }),
 
@@ -7625,6 +7625,7 @@ class File extends common_1.ServiceObject {
      *     `projects/my-project/locations/location/keyRings/my-kr/cryptoKeys/my-key`,
      *     that will be used to encrypt the object. Overwrites the object
      * metadata's `kms_key_name` value, if any.
+     * @property {Metadata} [metadata] Metadata to specify on the copied file.
      * @property {string} [predefinedAcl] Set the ACL for the new file.
      * @property {string} [token] A previously-returned `rewriteToken` from an
      *     unfinished rewrite request.
@@ -11606,8 +11607,6 @@ class Storage extends common_1.Service {
      * errors. We will exponentially backoff subsequent requests by default.
      * @property {number} [maxRetries=3] Maximum number of automatic retries
      *     attempted before returning the error.
-     * @property {Constructor} [promise] Custom promise module to use instead of
-     *     native Promises.
      * @property {string} [userAgent] The value to be prepended to the User-Agent
      *     header in API requests.
      */
@@ -11643,6 +11642,8 @@ class Storage extends common_1.Service {
         const baseUrl = EMULATOR_HOST || `${options.apiEndpoint}/storage/v1`;
         const config = {
             apiEndpoint: options.apiEndpoint,
+            autoRetry: options.autoRetry,
+            maxRetries: options.maxRetries,
             baseUrl,
             customEndpoint,
             projectIdRequired: false,
@@ -15412,6 +15413,7 @@ function Ajv(opts) {
   this._metaOpts = getMetaSchemaOptions(this);
 
   if (opts.formats) addInitialFormats(this);
+  if (opts.keywords) addInitialKeywords(this);
   addDefaultMetaSchema(this);
   if (typeof opts.meta == 'object') this.addMetaSchema(opts.meta);
   if (opts.nullable) this.addKeyword('nullable', {metaSchema: {type: 'boolean'}});
@@ -15810,6 +15812,14 @@ function addInitialFormats(self) {
 }
 
 
+function addInitialKeywords(self) {
+  for (var name in self._opts.keywords) {
+    var keyword = self._opts.keywords[name];
+    self.addKeyword(name, keyword);
+  }
+}
+
+
 function checkUnique(self, id) {
   if (self._schemas[id] || self._refs[id])
     throw new Error('schema with key or id "' + id + '" already exists');
@@ -16026,8 +16036,8 @@ var util = __nccwpck_require__(6578);
 
 var DATE = /^(\d\d\d\d)-(\d\d)-(\d\d)$/;
 var DAYS = [0,31,28,31,30,31,30,31,31,30,31,30,31];
-var TIME = /^(\d\d):(\d\d):(\d\d)(\.\d+)?(z|[+-]\d\d:\d\d)?$/i;
-var HOSTNAME = /^[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?(?:\.[a-z0-9](?:[-0-9a-z]{0,61}[0-9a-z])?)*$/i;
+var TIME = /^(\d\d):(\d\d):(\d\d)(\.\d+)?(z|[+-]\d\d(?::?\d\d)?)?$/i;
+var HOSTNAME = /^(?=.{1,253}\.?$)[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?(?:\.[a-z0-9](?:[-0-9a-z]{0,61}[0-9a-z])?)*\.?$/i;
 var URI = /^(?:[a-z][a-z0-9+\-.]*:)(?:\/?\/(?:(?:[a-z0-9\-._~!$&'()*+,;=:]|%[0-9a-f]{2})*@)?(?:\[(?:(?:(?:(?:[0-9a-f]{1,4}:){6}|::(?:[0-9a-f]{1,4}:){5}|(?:[0-9a-f]{1,4})?::(?:[0-9a-f]{1,4}:){4}|(?:(?:[0-9a-f]{1,4}:){0,1}[0-9a-f]{1,4})?::(?:[0-9a-f]{1,4}:){3}|(?:(?:[0-9a-f]{1,4}:){0,2}[0-9a-f]{1,4})?::(?:[0-9a-f]{1,4}:){2}|(?:(?:[0-9a-f]{1,4}:){0,3}[0-9a-f]{1,4})?::[0-9a-f]{1,4}:|(?:(?:[0-9a-f]{1,4}:){0,4}[0-9a-f]{1,4})?::)(?:[0-9a-f]{1,4}:[0-9a-f]{1,4}|(?:(?:25[0-5]|2[0-4]\d|[01]?\d\d?)\.){3}(?:25[0-5]|2[0-4]\d|[01]?\d\d?))|(?:(?:[0-9a-f]{1,4}:){0,5}[0-9a-f]{1,4})?::[0-9a-f]{1,4}|(?:(?:[0-9a-f]{1,4}:){0,6}[0-9a-f]{1,4})?::)|[Vv][0-9a-f]+\.[a-z0-9\-._~!$&'()*+,;=:]+)\]|(?:(?:25[0-5]|2[0-4]\d|[01]?\d\d?)\.){3}(?:25[0-5]|2[0-4]\d|[01]?\d\d?)|(?:[a-z0-9\-._~!$&'()*+,;=]|%[0-9a-f]{2})*)(?::\d*)?(?:\/(?:[a-z0-9\-._~!$&'()*+,;=:@]|%[0-9a-f]{2})*)*|\/(?:(?:[a-z0-9\-._~!$&'()*+,;=:@]|%[0-9a-f]{2})+(?:\/(?:[a-z0-9\-._~!$&'()*+,;=:@]|%[0-9a-f]{2})*)*)?|(?:[a-z0-9\-._~!$&'()*+,;=:@]|%[0-9a-f]{2})+(?:\/(?:[a-z0-9\-._~!$&'()*+,;=:@]|%[0-9a-f]{2})*)*)(?:\?(?:[a-z0-9\-._~!$&'()*+,;=:@/?]|%[0-9a-f]{2})*)?(?:#(?:[a-z0-9\-._~!$&'()*+,;=:@/?]|%[0-9a-f]{2})*)?$/i;
 var URIREF = /^(?:[a-z][a-z0-9+\-.]*:)?(?:\/?\/(?:(?:[a-z0-9\-._~!$&'()*+,;=:]|%[0-9a-f]{2})*@)?(?:\[(?:(?:(?:(?:[0-9a-f]{1,4}:){6}|::(?:[0-9a-f]{1,4}:){5}|(?:[0-9a-f]{1,4})?::(?:[0-9a-f]{1,4}:){4}|(?:(?:[0-9a-f]{1,4}:){0,1}[0-9a-f]{1,4})?::(?:[0-9a-f]{1,4}:){3}|(?:(?:[0-9a-f]{1,4}:){0,2}[0-9a-f]{1,4})?::(?:[0-9a-f]{1,4}:){2}|(?:(?:[0-9a-f]{1,4}:){0,3}[0-9a-f]{1,4})?::[0-9a-f]{1,4}:|(?:(?:[0-9a-f]{1,4}:){0,4}[0-9a-f]{1,4})?::)(?:[0-9a-f]{1,4}:[0-9a-f]{1,4}|(?:(?:25[0-5]|2[0-4]\d|[01]?\d\d?)\.){3}(?:25[0-5]|2[0-4]\d|[01]?\d\d?))|(?:(?:[0-9a-f]{1,4}:){0,5}[0-9a-f]{1,4})?::[0-9a-f]{1,4}|(?:(?:[0-9a-f]{1,4}:){0,6}[0-9a-f]{1,4})?::)|[Vv][0-9a-f]+\.[a-z0-9\-._~!$&'()*+,;=:]+)\]|(?:(?:25[0-5]|2[0-4]\d|[01]?\d\d?)\.){3}(?:25[0-5]|2[0-4]\d|[01]?\d\d?)|(?:[a-z0-9\-._~!$&'"()*+,;=]|%[0-9a-f]{2})*)(?::\d*)?(?:\/(?:[a-z0-9\-._~!$&'"()*+,;=:@]|%[0-9a-f]{2})*)*|\/(?:(?:[a-z0-9\-._~!$&'"()*+,;=:@]|%[0-9a-f]{2})+(?:\/(?:[a-z0-9\-._~!$&'"()*+,;=:@]|%[0-9a-f]{2})*)*)?|(?:[a-z0-9\-._~!$&'"()*+,;=:@]|%[0-9a-f]{2})+(?:\/(?:[a-z0-9\-._~!$&'"()*+,;=:@]|%[0-9a-f]{2})*)*)?(?:\?(?:[a-z0-9\-._~!$&'"()*+,;=:@/?]|%[0-9a-f]{2})*)?(?:#(?:[a-z0-9\-._~!$&'"()*+,;=:@/?]|%[0-9a-f]{2})*)?$/i;
 // uri-template: https://tools.ietf.org/html/rfc6570
@@ -16035,8 +16045,8 @@ var URITEMPLATE = /^(?:(?:[^\x00-\x20"'<>%\\^`{|}]|%[0-9a-f]{2})|\{[+#./;?&=,!@|
 // For the source: https://gist.github.com/dperini/729294
 // For test cases: https://mathiasbynens.be/demo/url-regex
 // @todo Delete current URL in favour of the commented out URL rule when this issue is fixed https://github.com/eslint/eslint/issues/7983.
-// var URL = /^(?:(?:https?|ftp):\/\/)(?:\S+(?::\S*)?@)?(?:(?!10(?:\.\d{1,3}){3})(?!127(?:\.\d{1,3}){3})(?!169\.254(?:\.\d{1,3}){2})(?!192\.168(?:\.\d{1,3}){2})(?!172\.(?:1[6-9]|2\d|3[0-1])(?:\.\d{1,3}){2})(?:[1-9]\d?|1\d\d|2[01]\d|22[0-3])(?:\.(?:1?\d{1,2}|2[0-4]\d|25[0-5])){2}(?:\.(?:[1-9]\d?|1\d\d|2[0-4]\d|25[0-4]))|(?:(?:[a-z\u{00a1}-\u{ffff}0-9]+-?)*[a-z\u{00a1}-\u{ffff}0-9]+)(?:\.(?:[a-z\u{00a1}-\u{ffff}0-9]+-?)*[a-z\u{00a1}-\u{ffff}0-9]+)*(?:\.(?:[a-z\u{00a1}-\u{ffff}]{2,})))(?::\d{2,5})?(?:\/[^\s]*)?$/iu;
-var URL = /^(?:(?:http[s\u017F]?|ftp):\/\/)(?:(?:[\0-\x08\x0E-\x1F!-\x9F\xA1-\u167F\u1681-\u1FFF\u200B-\u2027\u202A-\u202E\u2030-\u205E\u2060-\u2FFF\u3001-\uD7FF\uE000-\uFEFE\uFF00-\uFFFF]|[\uD800-\uDBFF][\uDC00-\uDFFF]|[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(?:[^\uD800-\uDBFF]|^)[\uDC00-\uDFFF])+(?::(?:[\0-\x08\x0E-\x1F!-\x9F\xA1-\u167F\u1681-\u1FFF\u200B-\u2027\u202A-\u202E\u2030-\u205E\u2060-\u2FFF\u3001-\uD7FF\uE000-\uFEFE\uFF00-\uFFFF]|[\uD800-\uDBFF][\uDC00-\uDFFF]|[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(?:[^\uD800-\uDBFF]|^)[\uDC00-\uDFFF])*)?@)?(?:(?!10(?:\.[0-9]{1,3}){3})(?!127(?:\.[0-9]{1,3}){3})(?!169\.254(?:\.[0-9]{1,3}){2})(?!192\.168(?:\.[0-9]{1,3}){2})(?!172\.(?:1[6-9]|2[0-9]|3[01])(?:\.[0-9]{1,3}){2})(?:[1-9][0-9]?|1[0-9][0-9]|2[01][0-9]|22[0-3])(?:\.(?:1?[0-9]{1,2}|2[0-4][0-9]|25[0-5])){2}(?:\.(?:[1-9][0-9]?|1[0-9][0-9]|2[0-4][0-9]|25[0-4]))|(?:(?:(?:[0-9KSa-z\xA1-\uD7FF\uE000-\uFFFF]|[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(?:[^\uD800-\uDBFF]|^)[\uDC00-\uDFFF])+-?)*(?:[0-9KSa-z\xA1-\uD7FF\uE000-\uFFFF]|[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(?:[^\uD800-\uDBFF]|^)[\uDC00-\uDFFF])+)(?:\.(?:(?:[0-9KSa-z\xA1-\uD7FF\uE000-\uFFFF]|[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(?:[^\uD800-\uDBFF]|^)[\uDC00-\uDFFF])+-?)*(?:[0-9KSa-z\xA1-\uD7FF\uE000-\uFFFF]|[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(?:[^\uD800-\uDBFF]|^)[\uDC00-\uDFFF])+)*(?:\.(?:(?:[KSa-z\xA1-\uD7FF\uE000-\uFFFF]|[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(?:[^\uD800-\uDBFF]|^)[\uDC00-\uDFFF]){2,})))(?::[0-9]{2,5})?(?:\/(?:[\0-\x08\x0E-\x1F!-\x9F\xA1-\u167F\u1681-\u1FFF\u200B-\u2027\u202A-\u202E\u2030-\u205E\u2060-\u2FFF\u3001-\uD7FF\uE000-\uFEFE\uFF00-\uFFFF]|[\uD800-\uDBFF][\uDC00-\uDFFF]|[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(?:[^\uD800-\uDBFF]|^)[\uDC00-\uDFFF])*)?$/i;
+// var URL = /^(?:(?:https?|ftp):\/\/)(?:\S+(?::\S*)?@)?(?:(?!10(?:\.\d{1,3}){3})(?!127(?:\.\d{1,3}){3})(?!169\.254(?:\.\d{1,3}){2})(?!192\.168(?:\.\d{1,3}){2})(?!172\.(?:1[6-9]|2\d|3[0-1])(?:\.\d{1,3}){2})(?:[1-9]\d?|1\d\d|2[01]\d|22[0-3])(?:\.(?:1?\d{1,2}|2[0-4]\d|25[0-5])){2}(?:\.(?:[1-9]\d?|1\d\d|2[0-4]\d|25[0-4]))|(?:(?:[a-z\u{00a1}-\u{ffff}0-9]+-)*[a-z\u{00a1}-\u{ffff}0-9]+)(?:\.(?:[a-z\u{00a1}-\u{ffff}0-9]+-)*[a-z\u{00a1}-\u{ffff}0-9]+)*(?:\.(?:[a-z\u{00a1}-\u{ffff}]{2,})))(?::\d{2,5})?(?:\/[^\s]*)?$/iu;
+var URL = /^(?:(?:http[s\u017F]?|ftp):\/\/)(?:(?:[\0-\x08\x0E-\x1F!-\x9F\xA1-\u167F\u1681-\u1FFF\u200B-\u2027\u202A-\u202E\u2030-\u205E\u2060-\u2FFF\u3001-\uD7FF\uE000-\uFEFE\uFF00-\uFFFF]|[\uD800-\uDBFF][\uDC00-\uDFFF]|[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(?:[^\uD800-\uDBFF]|^)[\uDC00-\uDFFF])+(?::(?:[\0-\x08\x0E-\x1F!-\x9F\xA1-\u167F\u1681-\u1FFF\u200B-\u2027\u202A-\u202E\u2030-\u205E\u2060-\u2FFF\u3001-\uD7FF\uE000-\uFEFE\uFF00-\uFFFF]|[\uD800-\uDBFF][\uDC00-\uDFFF]|[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(?:[^\uD800-\uDBFF]|^)[\uDC00-\uDFFF])*)?@)?(?:(?!10(?:\.[0-9]{1,3}){3})(?!127(?:\.[0-9]{1,3}){3})(?!169\.254(?:\.[0-9]{1,3}){2})(?!192\.168(?:\.[0-9]{1,3}){2})(?!172\.(?:1[6-9]|2[0-9]|3[01])(?:\.[0-9]{1,3}){2})(?:[1-9][0-9]?|1[0-9][0-9]|2[01][0-9]|22[0-3])(?:\.(?:1?[0-9]{1,2}|2[0-4][0-9]|25[0-5])){2}(?:\.(?:[1-9][0-9]?|1[0-9][0-9]|2[0-4][0-9]|25[0-4]))|(?:(?:(?:[0-9a-z\xA1-\uD7FF\uE000-\uFFFF]|[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(?:[^\uD800-\uDBFF]|^)[\uDC00-\uDFFF])+-)*(?:[0-9a-z\xA1-\uD7FF\uE000-\uFFFF]|[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(?:[^\uD800-\uDBFF]|^)[\uDC00-\uDFFF])+)(?:\.(?:(?:[0-9a-z\xA1-\uD7FF\uE000-\uFFFF]|[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(?:[^\uD800-\uDBFF]|^)[\uDC00-\uDFFF])+-)*(?:[0-9a-z\xA1-\uD7FF\uE000-\uFFFF]|[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(?:[^\uD800-\uDBFF]|^)[\uDC00-\uDFFF])+)*(?:\.(?:(?:[a-z\xA1-\uD7FF\uE000-\uFFFF]|[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(?:[^\uD800-\uDBFF]|^)[\uDC00-\uDFFF]){2,})))(?::[0-9]{2,5})?(?:\/(?:[\0-\x08\x0E-\x1F!-\x9F\xA1-\u167F\u1681-\u1FFF\u200B-\u2027\u202A-\u202E\u2030-\u205E\u2060-\u2FFF\u3001-\uD7FF\uE000-\uFEFE\uFF00-\uFFFF]|[\uD800-\uDBFF][\uDC00-\uDFFF]|[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(?:[^\uD800-\uDBFF]|^)[\uDC00-\uDFFF])*)?$/i;
 var UUID = /^(?:urn:uuid:)?[0-9a-f]{8}-(?:[0-9a-f]{4}-){3}[0-9a-f]{12}$/i;
 var JSON_POINTER = /^(?:\/(?:[^~/]|~0|~1)*)*$/;
 var JSON_POINTER_URI_FRAGMENT = /^#(?:\/(?:[a-z0-9_\-.!$&'()*+,;:=@]|%[0-9a-f]{2}|~0|~1)*)*$/i;
@@ -16055,11 +16065,11 @@ formats.fast = {
   // date: http://tools.ietf.org/html/rfc3339#section-5.6
   date: /^\d\d\d\d-[0-1]\d-[0-3]\d$/,
   // date-time: http://tools.ietf.org/html/rfc3339#section-5.6
-  time: /^(?:[0-2]\d:[0-5]\d:[0-5]\d|23:59:60)(?:\.\d+)?(?:z|[+-]\d\d:\d\d)?$/i,
-  'date-time': /^\d\d\d\d-[0-1]\d-[0-3]\d[t\s](?:[0-2]\d:[0-5]\d:[0-5]\d|23:59:60)(?:\.\d+)?(?:z|[+-]\d\d:\d\d)$/i,
+  time: /^(?:[0-2]\d:[0-5]\d:[0-5]\d|23:59:60)(?:\.\d+)?(?:z|[+-]\d\d(?::?\d\d)?)?$/i,
+  'date-time': /^\d\d\d\d-[0-1]\d-[0-3]\d[t\s](?:[0-2]\d:[0-5]\d:[0-5]\d|23:59:60)(?:\.\d+)?(?:z|[+-]\d\d(?::?\d\d)?)$/i,
   // uri: https://github.com/mafintosh/is-my-json-valid/blob/master/formats.js
-  uri: /^(?:[a-z][a-z0-9+-.]*:)(?:\/?\/)?[^\s]*$/i,
-  'uri-reference': /^(?:(?:[a-z][a-z0-9+-.]*:)?\/?\/)?(?:[^\\\s#][^\s#]*)?(?:#[^\\\s]*)?$/i,
+  uri: /^(?:[a-z][a-z0-9+\-.]*:)(?:\/?\/)?[^\s]*$/i,
+  'uri-reference': /^(?:(?:[a-z][a-z0-9+\-.]*:)?\/?\/)?(?:[^\\\s#][^\s#]*)?(?:#[^\\\s]*)?$/i,
   'uri-template': URITEMPLATE,
   url: URL,
   // email (sources from jsen validator):
@@ -16092,7 +16102,7 @@ formats.full = {
   'uri-template': URITEMPLATE,
   url: URL,
   email: /^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$/i,
-  hostname: hostname,
+  hostname: HOSTNAME,
   ipv4: /^(?:(?:25[0-5]|2[0-4]\d|[01]?\d\d?)\.){3}(?:25[0-5]|2[0-4]\d|[01]?\d\d?)$/,
   ipv6: /^\s*(?:(?:(?:[0-9a-f]{1,4}:){7}(?:[0-9a-f]{1,4}|:))|(?:(?:[0-9a-f]{1,4}:){6}(?::[0-9a-f]{1,4}|(?:(?:25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(?:\.(?:25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3})|:))|(?:(?:[0-9a-f]{1,4}:){5}(?:(?:(?::[0-9a-f]{1,4}){1,2})|:(?:(?:25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(?:\.(?:25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3})|:))|(?:(?:[0-9a-f]{1,4}:){4}(?:(?:(?::[0-9a-f]{1,4}){1,3})|(?:(?::[0-9a-f]{1,4})?:(?:(?:25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(?:\.(?:25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(?:(?:[0-9a-f]{1,4}:){3}(?:(?:(?::[0-9a-f]{1,4}){1,4})|(?:(?::[0-9a-f]{1,4}){0,2}:(?:(?:25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(?:\.(?:25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(?:(?:[0-9a-f]{1,4}:){2}(?:(?:(?::[0-9a-f]{1,4}){1,5})|(?:(?::[0-9a-f]{1,4}){0,3}:(?:(?:25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(?:\.(?:25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(?:(?:[0-9a-f]{1,4}:){1}(?:(?:(?::[0-9a-f]{1,4}){1,6})|(?:(?::[0-9a-f]{1,4}){0,4}:(?:(?:25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(?:\.(?:25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(?::(?:(?:(?::[0-9a-f]{1,4}){1,7})|(?:(?::[0-9a-f]{1,4}){0,5}:(?:(?:25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(?:\.(?:25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:)))(?:%.+)?\s*$/i,
   regex: regex,
@@ -16142,13 +16152,6 @@ function date_time(str) {
   // http://tools.ietf.org/html/rfc3339#section-5.6
   var dateTime = str.split(DATE_TIME_SEPARATOR);
   return dateTime.length == 2 && date(dateTime[0]) && time(dateTime[1], true);
-}
-
-
-function hostname(str) {
-  // https://tools.ietf.org/html/rfc1034#section-3.5
-  // https://tools.ietf.org/html/rfc1123#section-2
-  return str.length <= 255 && HOSTNAME.test(str);
 }
 
 
@@ -16292,7 +16295,7 @@ function compile(schema, root, localRefs, baseId) {
                    + vars(defaults, defaultCode) + vars(customRules, customRuleCode)
                    + sourceCode;
 
-    if (opts.processCode) sourceCode = opts.processCode(sourceCode);
+    if (opts.processCode) sourceCode = opts.processCode(sourceCode, _schema);
     // console.log('\n\n\n *** \n', JSON.stringify(sourceCode));
     var validate;
     try {
@@ -16984,8 +16987,6 @@ module.exports = {
   ucs2length: __nccwpck_require__(4580),
   varOccurences: varOccurences,
   varReplace: varReplace,
-  cleanUpCode: cleanUpCode,
-  finalCleanUpCode: finalCleanUpCode,
   schemaHasRules: schemaHasRules,
   schemaHasRulesExcept: schemaHasRulesExcept,
   schemaUnknownRules: schemaUnknownRules,
@@ -17007,7 +17008,7 @@ function copy(o, to) {
 }
 
 
-function checkDataType(dataType, data, negate) {
+function checkDataType(dataType, data, strictNumbers, negate) {
   var EQUAL = negate ? ' !== ' : ' === '
     , AND = negate ? ' || ' : ' && '
     , OK = negate ? '!' : ''
@@ -17020,15 +17021,18 @@ function checkDataType(dataType, data, negate) {
                           NOT + 'Array.isArray(' + data + '))';
     case 'integer': return '(typeof ' + data + EQUAL + '"number"' + AND +
                            NOT + '(' + data + ' % 1)' +
-                           AND + data + EQUAL + data + ')';
+                           AND + data + EQUAL + data +
+                           (strictNumbers ? (AND + OK + 'isFinite(' + data + ')') : '') + ')';
+    case 'number': return '(typeof ' + data + EQUAL + '"' + dataType + '"' +
+                          (strictNumbers ? (AND + OK + 'isFinite(' + data + ')') : '') + ')';
     default: return 'typeof ' + data + EQUAL + '"' + dataType + '"';
   }
 }
 
 
-function checkDataTypes(dataTypes, data) {
+function checkDataTypes(dataTypes, data, strictNumbers) {
   switch (dataTypes.length) {
-    case 1: return checkDataType(dataTypes[0], data, true);
+    case 1: return checkDataType(dataTypes[0], data, strictNumbers, true);
     default:
       var code = '';
       var types = toHash(dataTypes);
@@ -17041,7 +17045,7 @@ function checkDataTypes(dataTypes, data) {
       }
       if (types.number) delete types.integer;
       for (var t in types)
-        code += (code ? ' && ' : '' ) + checkDataType(t, data, true);
+        code += (code ? ' && ' : '' ) + checkDataType(t, data, strictNumbers, true);
 
       return code;
   }
@@ -17104,42 +17108,6 @@ function varReplace(str, dataVar, expr) {
   dataVar += '([^0-9])';
   expr = expr.replace(/\$/g, '$$$$');
   return str.replace(new RegExp(dataVar, 'g'), expr + '$1');
-}
-
-
-var EMPTY_ELSE = /else\s*{\s*}/g
-  , EMPTY_IF_NO_ELSE = /if\s*\([^)]+\)\s*\{\s*\}(?!\s*else)/g
-  , EMPTY_IF_WITH_ELSE = /if\s*\(([^)]+)\)\s*\{\s*\}\s*else(?!\s*if)/g;
-function cleanUpCode(out) {
-  return out.replace(EMPTY_ELSE, '')
-            .replace(EMPTY_IF_NO_ELSE, '')
-            .replace(EMPTY_IF_WITH_ELSE, 'if (!($1))');
-}
-
-
-var ERRORS_REGEXP = /[^v.]errors/g
-  , REMOVE_ERRORS = /var errors = 0;|var vErrors = null;|validate.errors = vErrors;/g
-  , REMOVE_ERRORS_ASYNC = /var errors = 0;|var vErrors = null;/g
-  , RETURN_VALID = 'return errors === 0;'
-  , RETURN_TRUE = 'validate.errors = null; return true;'
-  , RETURN_ASYNC = /if \(errors === 0\) return data;\s*else throw new ValidationError\(vErrors\);/
-  , RETURN_DATA_ASYNC = 'return data;'
-  , ROOTDATA_REGEXP = /[^A-Za-z_$]rootData[^A-Za-z0-9_$]/g
-  , REMOVE_ROOTDATA = /if \(rootData === undefined\) rootData = data;/;
-
-function finalCleanUpCode(out, async) {
-  var matches = out.match(ERRORS_REGEXP);
-  if (matches && matches.length == 2) {
-    out = async
-          ? out.replace(REMOVE_ERRORS_ASYNC, '')
-               .replace(RETURN_ASYNC, RETURN_DATA_ASYNC)
-          : out.replace(REMOVE_ERRORS, '')
-               .replace(RETURN_VALID, RETURN_TRUE);
-  }
-
-  matches = out.match(ROOTDATA_REGEXP);
-  if (!matches || matches.length !== 3) return out;
-  return out.replace(REMOVE_ROOTDATA, '');
 }
 
 
@@ -17221,7 +17189,7 @@ function getData($data, lvl, paths) {
 
 function joinPaths (a, b) {
   if (a == '""') return b;
-  return (a + ' + ' + b).replace(/' \+ '/g, '');
+  return (a + ' + ' + b).replace(/([^\\])' \+ '/g, '$1');
 }
 
 
@@ -17291,7 +17259,7 @@ module.exports = function (metaSchema, keywordsJsonPointers) {
         keywords[key] = {
           anyOf: [
             schema,
-            { $ref: 'https://raw.githubusercontent.com/epoberezkin/ajv/master/lib/refs/data.json#' }
+            { $ref: 'https://raw.githubusercontent.com/ajv-validator/ajv/master/lib/refs/data.json#' }
           ]
         };
       }
@@ -17313,7 +17281,7 @@ module.exports = function (metaSchema, keywordsJsonPointers) {
 var metaSchema = __nccwpck_require__(38);
 
 module.exports = {
-  $id: 'https://github.com/epoberezkin/ajv/blob/master/lib/definition_schema.js',
+  $id: 'https://github.com/ajv-validator/ajv/blob/master/lib/definition_schema.js',
   definitions: {
     simpleTypes: metaSchema.definitions.simpleTypes
   },
@@ -17379,6 +17347,12 @@ module.exports = function generate__limit(it, $keyword, $ruleType) {
     $op = $isMax ? '<' : '>',
     $notOp = $isMax ? '>' : '<',
     $errorKeyword = undefined;
+  if (!($isData || typeof $schema == 'number' || $schema === undefined)) {
+    throw new Error($keyword + ' must be number');
+  }
+  if (!($isDataExcl || $schemaExcl === undefined || typeof $schemaExcl == 'number' || typeof $schemaExcl == 'boolean')) {
+    throw new Error($exclusiveKeyword + ' must be number or boolean');
+  }
   if ($isDataExcl) {
     var $schemaValueExcl = it.util.getData($schemaExcl.$data, $dataLvl, it.dataPathArr),
       $exclusive = 'exclusive' + $lvl,
@@ -17537,6 +17511,9 @@ module.exports = function generate__limitItems(it, $keyword, $ruleType) {
   } else {
     $schemaValue = $schema;
   }
+  if (!($isData || typeof $schema == 'number')) {
+    throw new Error($keyword + ' must be number');
+  }
   var $op = $keyword == 'maxItems' ? '>' : '<';
   out += 'if ( ';
   if ($isData) {
@@ -17621,6 +17598,9 @@ module.exports = function generate__limitLength(it, $keyword, $ruleType) {
     $schemaValue = 'schema' + $lvl;
   } else {
     $schemaValue = $schema;
+  }
+  if (!($isData || typeof $schema == 'number')) {
+    throw new Error($keyword + ' must be number');
   }
   var $op = $keyword == 'maxLength' ? '>' : '<';
   out += 'if ( ';
@@ -17712,6 +17692,9 @@ module.exports = function generate__limitProperties(it, $keyword, $ruleType) {
   } else {
     $schemaValue = $schema;
   }
+  if (!($isData || typeof $schema == 'number')) {
+    throw new Error($keyword + ' must be number');
+  }
   var $op = $keyword == 'maxProperties' ? '>' : '<';
   out += 'if ( ';
   if ($isData) {
@@ -17797,7 +17780,7 @@ module.exports = function generate_allOf(it, $keyword, $ruleType) {
       l1 = arr1.length - 1;
     while ($i < l1) {
       $sch = arr1[$i += 1];
-      if ((it.opts.strictKeywords ? typeof $sch == 'object' && Object.keys($sch).length > 0 : it.util.schemaHasRules($sch, it.RULES.all))) {
+      if ((it.opts.strictKeywords ? (typeof $sch == 'object' && Object.keys($sch).length > 0) || $sch === false : it.util.schemaHasRules($sch, it.RULES.all))) {
         $allSchemasEmpty = false;
         $it.schema = $sch;
         $it.schemaPath = $schemaPath + '[' + $i + ']';
@@ -17818,7 +17801,6 @@ module.exports = function generate_allOf(it, $keyword, $ruleType) {
       out += ' ' + ($closingBraces.slice(0, -1)) + ' ';
     }
   }
-  out = it.util.cleanUpCode(out);
   return out;
 }
 
@@ -17846,7 +17828,7 @@ module.exports = function generate_anyOf(it, $keyword, $ruleType) {
   $it.level++;
   var $nextValid = 'valid' + $it.level;
   var $noEmptySchema = $schema.every(function($sch) {
-    return (it.opts.strictKeywords ? typeof $sch == 'object' && Object.keys($sch).length > 0 : it.util.schemaHasRules($sch, it.RULES.all));
+    return (it.opts.strictKeywords ? (typeof $sch == 'object' && Object.keys($sch).length > 0) || $sch === false : it.util.schemaHasRules($sch, it.RULES.all));
   });
   if ($noEmptySchema) {
     var $currentBaseId = $it.baseId;
@@ -17895,7 +17877,6 @@ module.exports = function generate_anyOf(it, $keyword, $ruleType) {
     if (it.opts.allErrors) {
       out += ' } ';
     }
-    out = it.util.cleanUpCode(out);
   } else {
     if ($breakOnError) {
       out += ' if (true) { ';
@@ -18017,7 +17998,7 @@ module.exports = function generate_contains(it, $keyword, $ruleType) {
     $dataNxt = $it.dataLevel = it.dataLevel + 1,
     $nextData = 'data' + $dataNxt,
     $currentBaseId = it.baseId,
-    $nonEmptySchema = (it.opts.strictKeywords ? typeof $schema == 'object' && Object.keys($schema).length > 0 : it.util.schemaHasRules($schema, it.RULES.all));
+    $nonEmptySchema = (it.opts.strictKeywords ? (typeof $schema == 'object' && Object.keys($schema).length > 0) || $schema === false : it.util.schemaHasRules($schema, it.RULES.all));
   out += 'var ' + ($errs) + ' = errors;var ' + ($valid) + ';';
   if ($nonEmptySchema) {
     var $wasComposite = it.compositeRule;
@@ -18076,7 +18057,6 @@ module.exports = function generate_contains(it, $keyword, $ruleType) {
   if (it.opts.allErrors) {
     out += ' } ';
   }
-  out = it.util.cleanUpCode(out);
   return out;
 }
 
@@ -18342,6 +18322,7 @@ module.exports = function generate_dependencies(it, $keyword, $ruleType) {
     $propertyDeps = {},
     $ownProperties = it.opts.ownProperties;
   for ($property in $schema) {
+    if ($property == '__proto__') continue;
     var $sch = $schema[$property];
     var $deps = Array.isArray($sch) ? $propertyDeps : $schemaDeps;
     $deps[$property] = $sch;
@@ -18467,7 +18448,7 @@ module.exports = function generate_dependencies(it, $keyword, $ruleType) {
   var $currentBaseId = $it.baseId;
   for (var $property in $schemaDeps) {
     var $sch = $schemaDeps[$property];
-    if ((it.opts.strictKeywords ? typeof $sch == 'object' && Object.keys($sch).length > 0 : it.util.schemaHasRules($sch, it.RULES.all))) {
+    if ((it.opts.strictKeywords ? (typeof $sch == 'object' && Object.keys($sch).length > 0) || $sch === false : it.util.schemaHasRules($sch, it.RULES.all))) {
       out += ' ' + ($nextValid) + ' = true; if ( ' + ($data) + (it.util.getProperty($property)) + ' !== undefined ';
       if ($ownProperties) {
         out += ' && Object.prototype.hasOwnProperty.call(' + ($data) + ', \'' + (it.util.escapeQuotes($property)) + '\') ';
@@ -18488,7 +18469,6 @@ module.exports = function generate_dependencies(it, $keyword, $ruleType) {
   if ($breakOnError) {
     out += '   ' + ($closingBraces) + ' if (' + ($errs) + ' == errors) {';
   }
-  out = it.util.cleanUpCode(out);
   return out;
 }
 
@@ -18748,8 +18728,8 @@ module.exports = function generate_if(it, $keyword, $ruleType) {
   var $nextValid = 'valid' + $it.level;
   var $thenSch = it.schema['then'],
     $elseSch = it.schema['else'],
-    $thenPresent = $thenSch !== undefined && (it.opts.strictKeywords ? typeof $thenSch == 'object' && Object.keys($thenSch).length > 0 : it.util.schemaHasRules($thenSch, it.RULES.all)),
-    $elsePresent = $elseSch !== undefined && (it.opts.strictKeywords ? typeof $elseSch == 'object' && Object.keys($elseSch).length > 0 : it.util.schemaHasRules($elseSch, it.RULES.all)),
+    $thenPresent = $thenSch !== undefined && (it.opts.strictKeywords ? (typeof $thenSch == 'object' && Object.keys($thenSch).length > 0) || $thenSch === false : it.util.schemaHasRules($thenSch, it.RULES.all)),
+    $elsePresent = $elseSch !== undefined && (it.opts.strictKeywords ? (typeof $elseSch == 'object' && Object.keys($elseSch).length > 0) || $elseSch === false : it.util.schemaHasRules($elseSch, it.RULES.all)),
     $currentBaseId = $it.baseId;
   if ($thenPresent || $elsePresent) {
     var $ifClause;
@@ -18827,7 +18807,6 @@ module.exports = function generate_if(it, $keyword, $ruleType) {
     if ($breakOnError) {
       out += ' else { ';
     }
-    out = it.util.cleanUpCode(out);
   } else {
     if ($breakOnError) {
       out += ' if (true) { ';
@@ -18952,7 +18931,7 @@ module.exports = function generate_items(it, $keyword, $ruleType) {
         l1 = arr1.length - 1;
       while ($i < l1) {
         $sch = arr1[$i += 1];
-        if ((it.opts.strictKeywords ? typeof $sch == 'object' && Object.keys($sch).length > 0 : it.util.schemaHasRules($sch, it.RULES.all))) {
+        if ((it.opts.strictKeywords ? (typeof $sch == 'object' && Object.keys($sch).length > 0) || $sch === false : it.util.schemaHasRules($sch, it.RULES.all))) {
           out += ' ' + ($nextValid) + ' = true; if (' + ($data) + '.length > ' + ($i) + ') { ';
           var $passData = $data + '[' + $i + ']';
           $it.schema = $sch;
@@ -18975,7 +18954,7 @@ module.exports = function generate_items(it, $keyword, $ruleType) {
         }
       }
     }
-    if (typeof $additionalItems == 'object' && (it.opts.strictKeywords ? typeof $additionalItems == 'object' && Object.keys($additionalItems).length > 0 : it.util.schemaHasRules($additionalItems, it.RULES.all))) {
+    if (typeof $additionalItems == 'object' && (it.opts.strictKeywords ? (typeof $additionalItems == 'object' && Object.keys($additionalItems).length > 0) || $additionalItems === false : it.util.schemaHasRules($additionalItems, it.RULES.all))) {
       $it.schema = $additionalItems;
       $it.schemaPath = it.schemaPath + '.additionalItems';
       $it.errSchemaPath = it.errSchemaPath + '/additionalItems';
@@ -18999,7 +18978,7 @@ module.exports = function generate_items(it, $keyword, $ruleType) {
         $closingBraces += '}';
       }
     }
-  } else if ((it.opts.strictKeywords ? typeof $schema == 'object' && Object.keys($schema).length > 0 : it.util.schemaHasRules($schema, it.RULES.all))) {
+  } else if ((it.opts.strictKeywords ? (typeof $schema == 'object' && Object.keys($schema).length > 0) || $schema === false : it.util.schemaHasRules($schema, it.RULES.all))) {
     $it.schema = $schema;
     $it.schemaPath = $schemaPath;
     $it.errSchemaPath = $errSchemaPath;
@@ -19022,7 +19001,6 @@ module.exports = function generate_items(it, $keyword, $ruleType) {
   if ($breakOnError) {
     out += ' ' + ($closingBraces) + ' if (' + ($errs) + ' == errors) {';
   }
-  out = it.util.cleanUpCode(out);
   return out;
 }
 
@@ -19050,6 +19028,9 @@ module.exports = function generate_multipleOf(it, $keyword, $ruleType) {
     $schemaValue = 'schema' + $lvl;
   } else {
     $schemaValue = $schema;
+  }
+  if (!($isData || typeof $schema == 'number')) {
+    throw new Error($keyword + ' must be number');
   }
   out += 'var division' + ($lvl) + ';if (';
   if ($isData) {
@@ -19132,7 +19113,7 @@ module.exports = function generate_not(it, $keyword, $ruleType) {
   var $it = it.util.copy(it);
   $it.level++;
   var $nextValid = 'valid' + $it.level;
-  if ((it.opts.strictKeywords ? typeof $schema == 'object' && Object.keys($schema).length > 0 : it.util.schemaHasRules($schema, it.RULES.all))) {
+  if ((it.opts.strictKeywords ? (typeof $schema == 'object' && Object.keys($schema).length > 0) || $schema === false : it.util.schemaHasRules($schema, it.RULES.all))) {
     $it.schema = $schema;
     $it.schemaPath = $schemaPath;
     $it.errSchemaPath = $errSchemaPath;
@@ -19238,7 +19219,7 @@ module.exports = function generate_oneOf(it, $keyword, $ruleType) {
       l1 = arr1.length - 1;
     while ($i < l1) {
       $sch = arr1[$i += 1];
-      if ((it.opts.strictKeywords ? typeof $sch == 'object' && Object.keys($sch).length > 0 : it.util.schemaHasRules($sch, it.RULES.all))) {
+      if ((it.opts.strictKeywords ? (typeof $sch == 'object' && Object.keys($sch).length > 0) || $sch === false : it.util.schemaHasRules($sch, it.RULES.all))) {
         $it.schema = $sch;
         $it.schemaPath = $schemaPath + '[' + $i + ']';
         $it.errSchemaPath = $errSchemaPath + '/' + $i;
@@ -19394,9 +19375,9 @@ module.exports = function generate_properties(it, $keyword, $ruleType) {
     $dataNxt = $it.dataLevel = it.dataLevel + 1,
     $nextData = 'data' + $dataNxt,
     $dataProperties = 'dataProperties' + $lvl;
-  var $schemaKeys = Object.keys($schema || {}),
+  var $schemaKeys = Object.keys($schema || {}).filter(notProto),
     $pProperties = it.schema.patternProperties || {},
-    $pPropertyKeys = Object.keys($pProperties),
+    $pPropertyKeys = Object.keys($pProperties).filter(notProto),
     $aProperties = it.schema.additionalProperties,
     $someProperties = $schemaKeys.length || $pPropertyKeys.length,
     $noAdditional = $aProperties === false,
@@ -19406,7 +19387,13 @@ module.exports = function generate_properties(it, $keyword, $ruleType) {
     $ownProperties = it.opts.ownProperties,
     $currentBaseId = it.baseId;
   var $required = it.schema.required;
-  if ($required && !(it.opts.$data && $required.$data) && $required.length < it.opts.loopRequired) var $requiredHash = it.util.toHash($required);
+  if ($required && !(it.opts.$data && $required.$data) && $required.length < it.opts.loopRequired) {
+    var $requiredHash = it.util.toHash($required);
+  }
+
+  function notProto(p) {
+    return p !== '__proto__';
+  }
   out += 'var ' + ($errs) + ' = errors;var ' + ($nextValid) + ' = true;';
   if ($ownProperties) {
     out += ' var ' + ($dataProperties) + ' = undefined;';
@@ -19559,7 +19546,7 @@ module.exports = function generate_properties(it, $keyword, $ruleType) {
       while (i3 < l3) {
         $propertyKey = arr3[i3 += 1];
         var $sch = $schema[$propertyKey];
-        if ((it.opts.strictKeywords ? typeof $sch == 'object' && Object.keys($sch).length > 0 : it.util.schemaHasRules($sch, it.RULES.all))) {
+        if ((it.opts.strictKeywords ? (typeof $sch == 'object' && Object.keys($sch).length > 0) || $sch === false : it.util.schemaHasRules($sch, it.RULES.all))) {
           var $prop = it.util.getProperty($propertyKey),
             $passData = $data + $prop,
             $hasDefault = $useDefaults && $sch.default !== undefined;
@@ -19662,7 +19649,7 @@ module.exports = function generate_properties(it, $keyword, $ruleType) {
       while (i4 < l4) {
         $pProperty = arr4[i4 += 1];
         var $sch = $pProperties[$pProperty];
-        if ((it.opts.strictKeywords ? typeof $sch == 'object' && Object.keys($sch).length > 0 : it.util.schemaHasRules($sch, it.RULES.all))) {
+        if ((it.opts.strictKeywords ? (typeof $sch == 'object' && Object.keys($sch).length > 0) || $sch === false : it.util.schemaHasRules($sch, it.RULES.all))) {
           $it.schema = $sch;
           $it.schemaPath = it.schemaPath + '.patternProperties' + it.util.getProperty($pProperty);
           $it.errSchemaPath = it.errSchemaPath + '/patternProperties/' + it.util.escapeFragment($pProperty);
@@ -19701,7 +19688,6 @@ module.exports = function generate_properties(it, $keyword, $ruleType) {
   if ($breakOnError) {
     out += ' ' + ($closingBraces) + ' if (' + ($errs) + ' == errors) {';
   }
-  out = it.util.cleanUpCode(out);
   return out;
 }
 
@@ -19728,7 +19714,7 @@ module.exports = function generate_propertyNames(it, $keyword, $ruleType) {
   $it.level++;
   var $nextValid = 'valid' + $it.level;
   out += 'var ' + ($errs) + ' = errors;';
-  if ((it.opts.strictKeywords ? typeof $schema == 'object' && Object.keys($schema).length > 0 : it.util.schemaHasRules($schema, it.RULES.all))) {
+  if ((it.opts.strictKeywords ? (typeof $schema == 'object' && Object.keys($schema).length > 0) || $schema === false : it.util.schemaHasRules($schema, it.RULES.all))) {
     $it.schema = $schema;
     $it.schemaPath = $schemaPath;
     $it.errSchemaPath = $errSchemaPath;
@@ -19791,7 +19777,6 @@ module.exports = function generate_propertyNames(it, $keyword, $ruleType) {
   if ($breakOnError) {
     out += ' ' + ($closingBraces) + ' if (' + ($errs) + ' == errors) {';
   }
-  out = it.util.cleanUpCode(out);
   return out;
 }
 
@@ -19964,7 +19949,7 @@ module.exports = function generate_required(it, $keyword, $ruleType) {
         while (i1 < l1) {
           $property = arr1[i1 += 1];
           var $propertySch = it.schema.properties[$property];
-          if (!($propertySch && (it.opts.strictKeywords ? typeof $propertySch == 'object' && Object.keys($propertySch).length > 0 : it.util.schemaHasRules($propertySch, it.RULES.all)))) {
+          if (!($propertySch && (it.opts.strictKeywords ? (typeof $propertySch == 'object' && Object.keys($propertySch).length > 0) || $propertySch === false : it.util.schemaHasRules($propertySch, it.RULES.all)))) {
             $required[$required.length] = $property;
           }
         }
@@ -20243,7 +20228,7 @@ module.exports = function generate_uniqueItems(it, $keyword, $ruleType) {
     } else {
       out += ' var itemIndices = {}, item; for (;i--;) { var item = ' + ($data) + '[i]; ';
       var $method = 'checkDataType' + ($typeIsArray ? 's' : '');
-      out += ' if (' + (it.util[$method]($itemType, 'item', true)) + ') continue; ';
+      out += ' if (' + (it.util[$method]($itemType, 'item', it.opts.strictNumbers, true)) + ') continue; ';
       if ($typeIsArray) {
         out += ' if (typeof item == \'string\') item = \'"\' + item; ';
       }
@@ -20399,7 +20384,7 @@ module.exports = function generate_validate(it, $keyword, $ruleType) {
     it.rootId = it.resolve.fullPath(it.self._getId(it.root.schema));
     it.baseId = it.baseId || it.rootId;
     delete it.isTop;
-    it.dataPathArr = [undefined];
+    it.dataPathArr = [""];
     if (it.schema.default !== undefined && it.opts.useDefaults && it.opts.strictDefaults) {
       var $defaultMsg = 'default is ignored in the schema root';
       if (it.opts.strictDefaults === 'log') it.logger.warn($defaultMsg);
@@ -20457,47 +20442,39 @@ module.exports = function generate_validate(it, $keyword, $ruleType) {
       var $schemaPath = it.schemaPath + '.type',
         $errSchemaPath = it.errSchemaPath + '/type',
         $method = $typeIsArray ? 'checkDataTypes' : 'checkDataType';
-      out += ' if (' + (it.util[$method]($typeSchema, $data, true)) + ') { ';
+      out += ' if (' + (it.util[$method]($typeSchema, $data, it.opts.strictNumbers, true)) + ') { ';
       if ($coerceToTypes) {
         var $dataType = 'dataType' + $lvl,
           $coerced = 'coerced' + $lvl;
-        out += ' var ' + ($dataType) + ' = typeof ' + ($data) + '; ';
+        out += ' var ' + ($dataType) + ' = typeof ' + ($data) + '; var ' + ($coerced) + ' = undefined; ';
         if (it.opts.coerceTypes == 'array') {
-          out += ' if (' + ($dataType) + ' == \'object\' && Array.isArray(' + ($data) + ')) ' + ($dataType) + ' = \'array\'; ';
+          out += ' if (' + ($dataType) + ' == \'object\' && Array.isArray(' + ($data) + ') && ' + ($data) + '.length == 1) { ' + ($data) + ' = ' + ($data) + '[0]; ' + ($dataType) + ' = typeof ' + ($data) + '; if (' + (it.util.checkDataType(it.schema.type, $data, it.opts.strictNumbers)) + ') ' + ($coerced) + ' = ' + ($data) + '; } ';
         }
-        out += ' var ' + ($coerced) + ' = undefined; ';
-        var $bracesCoercion = '';
+        out += ' if (' + ($coerced) + ' !== undefined) ; ';
         var arr1 = $coerceToTypes;
         if (arr1) {
           var $type, $i = -1,
             l1 = arr1.length - 1;
           while ($i < l1) {
             $type = arr1[$i += 1];
-            if ($i) {
-              out += ' if (' + ($coerced) + ' === undefined) { ';
-              $bracesCoercion += '}';
-            }
-            if (it.opts.coerceTypes == 'array' && $type != 'array') {
-              out += ' if (' + ($dataType) + ' == \'array\' && ' + ($data) + '.length == 1) { ' + ($coerced) + ' = ' + ($data) + ' = ' + ($data) + '[0]; ' + ($dataType) + ' = typeof ' + ($data) + ';  } ';
-            }
             if ($type == 'string') {
-              out += ' if (' + ($dataType) + ' == \'number\' || ' + ($dataType) + ' == \'boolean\') ' + ($coerced) + ' = \'\' + ' + ($data) + '; else if (' + ($data) + ' === null) ' + ($coerced) + ' = \'\'; ';
+              out += ' else if (' + ($dataType) + ' == \'number\' || ' + ($dataType) + ' == \'boolean\') ' + ($coerced) + ' = \'\' + ' + ($data) + '; else if (' + ($data) + ' === null) ' + ($coerced) + ' = \'\'; ';
             } else if ($type == 'number' || $type == 'integer') {
-              out += ' if (' + ($dataType) + ' == \'boolean\' || ' + ($data) + ' === null || (' + ($dataType) + ' == \'string\' && ' + ($data) + ' && ' + ($data) + ' == +' + ($data) + ' ';
+              out += ' else if (' + ($dataType) + ' == \'boolean\' || ' + ($data) + ' === null || (' + ($dataType) + ' == \'string\' && ' + ($data) + ' && ' + ($data) + ' == +' + ($data) + ' ';
               if ($type == 'integer') {
                 out += ' && !(' + ($data) + ' % 1)';
               }
               out += ')) ' + ($coerced) + ' = +' + ($data) + '; ';
             } else if ($type == 'boolean') {
-              out += ' if (' + ($data) + ' === \'false\' || ' + ($data) + ' === 0 || ' + ($data) + ' === null) ' + ($coerced) + ' = false; else if (' + ($data) + ' === \'true\' || ' + ($data) + ' === 1) ' + ($coerced) + ' = true; ';
+              out += ' else if (' + ($data) + ' === \'false\' || ' + ($data) + ' === 0 || ' + ($data) + ' === null) ' + ($coerced) + ' = false; else if (' + ($data) + ' === \'true\' || ' + ($data) + ' === 1) ' + ($coerced) + ' = true; ';
             } else if ($type == 'null') {
-              out += ' if (' + ($data) + ' === \'\' || ' + ($data) + ' === 0 || ' + ($data) + ' === false) ' + ($coerced) + ' = null; ';
+              out += ' else if (' + ($data) + ' === \'\' || ' + ($data) + ' === 0 || ' + ($data) + ' === false) ' + ($coerced) + ' = null; ';
             } else if (it.opts.coerceTypes == 'array' && $type == 'array') {
-              out += ' if (' + ($dataType) + ' == \'string\' || ' + ($dataType) + ' == \'number\' || ' + ($dataType) + ' == \'boolean\' || ' + ($data) + ' == null) ' + ($coerced) + ' = [' + ($data) + ']; ';
+              out += ' else if (' + ($dataType) + ' == \'string\' || ' + ($dataType) + ' == \'number\' || ' + ($dataType) + ' == \'boolean\' || ' + ($data) + ' == null) ' + ($coerced) + ' = [' + ($data) + ']; ';
             }
           }
         }
-        out += ' ' + ($bracesCoercion) + ' if (' + ($coerced) + ' === undefined) {   ';
+        out += ' else {   ';
         var $$outStack = $$outStack || [];
         $$outStack.push(out);
         out = ''; /* istanbul ignore else */
@@ -20537,7 +20514,7 @@ module.exports = function generate_validate(it, $keyword, $ruleType) {
         } else {
           out += ' var err = ' + (__err) + ';  if (vErrors === null) vErrors = [err]; else vErrors.push(err); errors++; ';
         }
-        out += ' } else {  ';
+        out += ' } if (' + ($coerced) + ' !== undefined) {  ';
         var $parentData = $dataLvl ? 'data' + (($dataLvl - 1) || '') : 'parentData',
           $parentDataProperty = $dataLvl ? it.dataPathArr[$dataLvl] : 'parentDataProperty';
         out += ' ' + ($data) + ' = ' + ($coerced) + '; ';
@@ -20610,7 +20587,7 @@ module.exports = function generate_validate(it, $keyword, $ruleType) {
         $rulesGroup = arr2[i2 += 1];
         if ($shouldUseGroup($rulesGroup)) {
           if ($rulesGroup.type) {
-            out += ' if (' + (it.util.checkDataType($rulesGroup.type, $data)) + ') { ';
+            out += ' if (' + (it.util.checkDataType($rulesGroup.type, $data, it.opts.strictNumbers)) + ') { ';
           }
           if (it.opts.useDefaults) {
             if ($rulesGroup.type == 'object' && it.schema.properties) {
@@ -20778,10 +20755,6 @@ module.exports = function generate_validate(it, $keyword, $ruleType) {
   } else {
     out += ' var ' + ($valid) + ' = errors === errs_' + ($lvl) + ';';
   }
-  out = it.util.cleanUpCode(out);
-  if ($top) {
-    out = it.util.finalCleanUpCode(out, $async);
-  }
 
   function $shouldUseGroup($rulesGroup) {
     var rules = $rulesGroup.rules;
@@ -20856,7 +20829,7 @@ function addKeyword(keyword, definition) {
         metaSchema = {
           anyOf: [
             metaSchema,
-            { '$ref': 'https://raw.githubusercontent.com/epoberezkin/ajv/master/lib/refs/data.json#' }
+            { '$ref': 'https://raw.githubusercontent.com/ajv-validator/ajv/master/lib/refs/data.json#' }
           ]
         };
       }
@@ -27340,9 +27313,9 @@ module.exports = __nccwpck_require__(5564)
 const path = __nccwpck_require__(5622);
 const os = __nccwpck_require__(2087);
 const fs = __nccwpck_require__(7758);
-const makeDir = __nccwpck_require__(106);
+const makeDir = __nccwpck_require__(9126);
 const xdgBasedir = __nccwpck_require__(3522);
-const writeFileAtomic = __nccwpck_require__(6750);
+const writeFileAtomic = __nccwpck_require__(3507);
 const dotProp = __nccwpck_require__(2042);
 const uniqueString = __nccwpck_require__(5184);
 
@@ -27445,437 +27418,6 @@ class Configstore {
 }
 
 module.exports = Configstore;
-
-
-/***/ }),
-
-/***/ 106:
-/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
-
-"use strict";
-
-const fs = __nccwpck_require__(5747);
-const path = __nccwpck_require__(5622);
-const {promisify} = __nccwpck_require__(1669);
-const semver = __nccwpck_require__(5911);
-
-const useNativeRecursiveOption = semver.satisfies(process.version, '>=10.12.0');
-
-// https://github.com/nodejs/node/issues/8987
-// https://github.com/libuv/libuv/pull/1088
-const checkPath = pth => {
-	if (process.platform === 'win32') {
-		const pathHasInvalidWinCharacters = /[<>:"|?*]/.test(pth.replace(path.parse(pth).root, ''));
-
-		if (pathHasInvalidWinCharacters) {
-			const error = new Error(`Path contains invalid characters: ${pth}`);
-			error.code = 'EINVAL';
-			throw error;
-		}
-	}
-};
-
-const processOptions = options => {
-	// https://github.com/sindresorhus/make-dir/issues/18
-	const defaults = {
-		mode: 0o777,
-		fs
-	};
-
-	return {
-		...defaults,
-		...options
-	};
-};
-
-const permissionError = pth => {
-	// This replicates the exception of `fs.mkdir` with native the
-	// `recusive` option when run on an invalid drive under Windows.
-	const error = new Error(`operation not permitted, mkdir '${pth}'`);
-	error.code = 'EPERM';
-	error.errno = -4048;
-	error.path = pth;
-	error.syscall = 'mkdir';
-	return error;
-};
-
-const makeDir = async (input, options) => {
-	checkPath(input);
-	options = processOptions(options);
-
-	const mkdir = promisify(options.fs.mkdir);
-	const stat = promisify(options.fs.stat);
-
-	if (useNativeRecursiveOption && options.fs.mkdir === fs.mkdir) {
-		const pth = path.resolve(input);
-
-		await mkdir(pth, {
-			mode: options.mode,
-			recursive: true
-		});
-
-		return pth;
-	}
-
-	const make = async pth => {
-		try {
-			await mkdir(pth, options.mode);
-
-			return pth;
-		} catch (error) {
-			if (error.code === 'EPERM') {
-				throw error;
-			}
-
-			if (error.code === 'ENOENT') {
-				if (path.dirname(pth) === pth) {
-					throw permissionError(pth);
-				}
-
-				if (error.message.includes('null bytes')) {
-					throw error;
-				}
-
-				await make(path.dirname(pth));
-
-				return make(pth);
-			}
-
-			try {
-				const stats = await stat(pth);
-				if (!stats.isDirectory()) {
-					throw new Error('The path is not a directory');
-				}
-			} catch (_) {
-				throw error;
-			}
-
-			return pth;
-		}
-	};
-
-	return make(path.resolve(input));
-};
-
-module.exports = makeDir;
-
-module.exports.sync = (input, options) => {
-	checkPath(input);
-	options = processOptions(options);
-
-	if (useNativeRecursiveOption && options.fs.mkdirSync === fs.mkdirSync) {
-		const pth = path.resolve(input);
-
-		fs.mkdirSync(pth, {
-			mode: options.mode,
-			recursive: true
-		});
-
-		return pth;
-	}
-
-	const make = pth => {
-		try {
-			options.fs.mkdirSync(pth, options.mode);
-		} catch (error) {
-			if (error.code === 'EPERM') {
-				throw error;
-			}
-
-			if (error.code === 'ENOENT') {
-				if (path.dirname(pth) === pth) {
-					throw permissionError(pth);
-				}
-
-				if (error.message.includes('null bytes')) {
-					throw error;
-				}
-
-				make(path.dirname(pth));
-				return make(pth);
-			}
-
-			try {
-				if (!options.fs.statSync(pth).isDirectory()) {
-					throw new Error('The path is not a directory');
-				}
-			} catch (_) {
-				throw error;
-			}
-		}
-
-		return pth;
-	};
-
-	return make(path.resolve(input));
-};
-
-
-/***/ }),
-
-/***/ 6750:
-/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
-
-"use strict";
-
-module.exports = writeFile
-module.exports.sync = writeFileSync
-module.exports._getTmpname = getTmpname // for testing
-module.exports._cleanupOnExit = cleanupOnExit
-
-const fs = __nccwpck_require__(5747)
-const MurmurHash3 = __nccwpck_require__(2527)
-const onExit = __nccwpck_require__(4931)
-const path = __nccwpck_require__(5622)
-const isTypedArray = __nccwpck_require__(657)
-const typedArrayToBuffer = __nccwpck_require__(1315)
-const { promisify } = __nccwpck_require__(1669)
-const activeFiles = {}
-
-// if we run inside of a worker_thread, `process.pid` is not unique
-/* istanbul ignore next */
-const threadId = (function getId () {
-  try {
-    const workerThreads = __nccwpck_require__(5013)
-
-    /// if we are in main thread, this is set to `0`
-    return workerThreads.threadId
-  } catch (e) {
-    // worker_threads are not available, fallback to 0
-    return 0
-  }
-})()
-
-let invocations = 0
-function getTmpname (filename) {
-  return filename + '.' +
-    MurmurHash3(__filename)
-      .hash(String(process.pid))
-      .hash(String(threadId))
-      .hash(String(++invocations))
-      .result()
-}
-
-function cleanupOnExit (tmpfile) {
-  return () => {
-    try {
-      fs.unlinkSync(typeof tmpfile === 'function' ? tmpfile() : tmpfile)
-    } catch (_) {}
-  }
-}
-
-function serializeActiveFile (absoluteName) {
-  return new Promise(resolve => {
-    // make a queue if it doesn't already exist
-    if (!activeFiles[absoluteName]) activeFiles[absoluteName] = []
-
-    activeFiles[absoluteName].push(resolve) // add this job to the queue
-    if (activeFiles[absoluteName].length === 1) resolve() // kick off the first one
-  })
-}
-
-// https://github.com/isaacs/node-graceful-fs/blob/master/polyfills.js#L315-L342
-function isChownErrOk (err) {
-  if (err.code === 'ENOSYS') {
-    return true
-  }
-
-  const nonroot = !process.getuid || process.getuid() !== 0
-  if (nonroot) {
-    if (err.code === 'EINVAL' || err.code === 'EPERM') {
-      return true
-    }
-  }
-
-  return false
-}
-
-async function writeFileAsync (filename, data, options = {}) {
-  if (typeof options === 'string') {
-    options = { encoding: options }
-  }
-
-  let fd
-  let tmpfile
-  /* istanbul ignore next -- The closure only gets called when onExit triggers */
-  const removeOnExitHandler = onExit(cleanupOnExit(() => tmpfile))
-  const absoluteName = path.resolve(filename)
-
-  try {
-    await serializeActiveFile(absoluteName)
-    const truename = await promisify(fs.realpath)(filename).catch(() => filename)
-    tmpfile = getTmpname(truename)
-
-    if (!options.mode || !options.chown) {
-      // Either mode or chown is not explicitly set
-      // Default behavior is to copy it from original file
-      const stats = await promisify(fs.stat)(truename).catch(() => {})
-      if (stats) {
-        if (options.mode == null) {
-          options.mode = stats.mode
-        }
-
-        if (options.chown == null && process.getuid) {
-          options.chown = { uid: stats.uid, gid: stats.gid }
-        }
-      }
-    }
-
-    fd = await promisify(fs.open)(tmpfile, 'w', options.mode)
-    if (options.tmpfileCreated) {
-      await options.tmpfileCreated(tmpfile)
-    }
-    if (isTypedArray(data)) {
-      data = typedArrayToBuffer(data)
-    }
-    if (Buffer.isBuffer(data)) {
-      await promisify(fs.write)(fd, data, 0, data.length, 0)
-    } else if (data != null) {
-      await promisify(fs.write)(fd, String(data), 0, String(options.encoding || 'utf8'))
-    }
-
-    if (options.fsync !== false) {
-      await promisify(fs.fsync)(fd)
-    }
-
-    await promisify(fs.close)(fd)
-    fd = null
-
-    if (options.chown) {
-      await promisify(fs.chown)(tmpfile, options.chown.uid, options.chown.gid).catch(err => {
-        if (!isChownErrOk(err)) {
-          throw err
-        }
-      })
-    }
-
-    if (options.mode) {
-      await promisify(fs.chmod)(tmpfile, options.mode).catch(err => {
-        if (!isChownErrOk(err)) {
-          throw err
-        }
-      })
-    }
-
-    await promisify(fs.rename)(tmpfile, truename)
-  } finally {
-    if (fd) {
-      await promisify(fs.close)(fd).catch(
-        /* istanbul ignore next */
-        () => {}
-      )
-    }
-    removeOnExitHandler()
-    await promisify(fs.unlink)(tmpfile).catch(() => {})
-    activeFiles[absoluteName].shift() // remove the element added by serializeSameFile
-    if (activeFiles[absoluteName].length > 0) {
-      activeFiles[absoluteName][0]() // start next job if one is pending
-    } else delete activeFiles[absoluteName]
-  }
-}
-
-function writeFile (filename, data, options, callback) {
-  if (options instanceof Function) {
-    callback = options
-    options = {}
-  }
-
-  const promise = writeFileAsync(filename, data, options)
-  if (callback) {
-    promise.then(callback, callback)
-  }
-
-  return promise
-}
-
-function writeFileSync (filename, data, options) {
-  if (typeof options === 'string') options = { encoding: options }
-  else if (!options) options = {}
-  try {
-    filename = fs.realpathSync(filename)
-  } catch (ex) {
-    // it's ok, it'll happen on a not yet existing file
-  }
-  const tmpfile = getTmpname(filename)
-
-  if (!options.mode || !options.chown) {
-    // Either mode or chown is not explicitly set
-    // Default behavior is to copy it from original file
-    try {
-      const stats = fs.statSync(filename)
-      options = Object.assign({}, options)
-      if (!options.mode) {
-        options.mode = stats.mode
-      }
-      if (!options.chown && process.getuid) {
-        options.chown = { uid: stats.uid, gid: stats.gid }
-      }
-    } catch (ex) {
-      // ignore stat errors
-    }
-  }
-
-  let fd
-  const cleanup = cleanupOnExit(tmpfile)
-  const removeOnExitHandler = onExit(cleanup)
-
-  let threw = true
-  try {
-    fd = fs.openSync(tmpfile, 'w', options.mode || 0o666)
-    if (options.tmpfileCreated) {
-      options.tmpfileCreated(tmpfile)
-    }
-    if (isTypedArray(data)) {
-      data = typedArrayToBuffer(data)
-    }
-    if (Buffer.isBuffer(data)) {
-      fs.writeSync(fd, data, 0, data.length, 0)
-    } else if (data != null) {
-      fs.writeSync(fd, String(data), 0, String(options.encoding || 'utf8'))
-    }
-    if (options.fsync !== false) {
-      fs.fsyncSync(fd)
-    }
-
-    fs.closeSync(fd)
-    fd = null
-
-    if (options.chown) {
-      try {
-        fs.chownSync(tmpfile, options.chown.uid, options.chown.gid)
-      } catch (err) {
-        if (!isChownErrOk(err)) {
-          throw err
-        }
-      }
-    }
-
-    if (options.mode) {
-      try {
-        fs.chmodSync(tmpfile, options.mode)
-      } catch (err) {
-        if (!isChownErrOk(err)) {
-          throw err
-        }
-      }
-    }
-
-    fs.renameSync(tmpfile, filename)
-    threw = false
-  } finally {
-    if (fd) {
-      try {
-        fs.closeSync(fd)
-      } catch (ex) {
-        // ignore close errors at this stage, error may have closed fd already.
-      }
-    }
-    removeOnExitHandler()
-    if (threw) {
-      cleanup()
-    }
-  }
-}
 
 
 /***/ }),
@@ -32263,21 +31805,18 @@ function dumpException(ex)
 "use strict";
 
 
-var isArray = Array.isArray;
-var keyList = Object.keys;
-var hasProp = Object.prototype.hasOwnProperty;
+// do not edit .js files directly - edit src/index.jst
+
+
 
 module.exports = function equal(a, b) {
   if (a === b) return true;
 
   if (a && b && typeof a == 'object' && typeof b == 'object') {
-    var arrA = isArray(a)
-      , arrB = isArray(b)
-      , i
-      , length
-      , key;
+    if (a.constructor !== b.constructor) return false;
 
-    if (arrA && arrB) {
+    var length, i, keys;
+    if (Array.isArray(a)) {
       length = a.length;
       if (length != b.length) return false;
       for (i = length; i-- !== 0;)
@@ -32285,35 +31824,29 @@ module.exports = function equal(a, b) {
       return true;
     }
 
-    if (arrA != arrB) return false;
 
-    var dateA = a instanceof Date
-      , dateB = b instanceof Date;
-    if (dateA != dateB) return false;
-    if (dateA && dateB) return a.getTime() == b.getTime();
 
-    var regexpA = a instanceof RegExp
-      , regexpB = b instanceof RegExp;
-    if (regexpA != regexpB) return false;
-    if (regexpA && regexpB) return a.toString() == b.toString();
+    if (a.constructor === RegExp) return a.source === b.source && a.flags === b.flags;
+    if (a.valueOf !== Object.prototype.valueOf) return a.valueOf() === b.valueOf();
+    if (a.toString !== Object.prototype.toString) return a.toString() === b.toString();
 
-    var keys = keyList(a);
+    keys = Object.keys(a);
     length = keys.length;
-
-    if (length !== keyList(b).length)
-      return false;
+    if (length !== Object.keys(b).length) return false;
 
     for (i = length; i-- !== 0;)
-      if (!hasProp.call(b, keys[i])) return false;
+      if (!Object.prototype.hasOwnProperty.call(b, keys[i])) return false;
 
     for (i = length; i-- !== 0;) {
-      key = keys[i];
+      var key = keys[i];
+
       if (!equal(a[key], b[key])) return false;
     }
 
     return true;
   }
 
+  // true if both NaN, false otherwise
   return a!==a && b!==b;
 };
 
@@ -33801,17 +33334,9 @@ exports.requestTimeout = requestTimeout;
 /*!
  * Copyright 2018 Google LLC
  *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
+ * Use of this source code is governed by an MIT-style
+ * license that can be found in the LICENSE file or at
+ * https://opensource.org/licenses/MIT.
  */
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.createURI = exports.upload = exports.Upload = exports.PROTOCOL_REGEX = void 0;
@@ -34241,6 +33766,8 @@ class AuthClient extends events_1.EventEmitter {
         super(...arguments);
         this.transporter = new transporters_1.DefaultTransporter();
         this.credentials = {};
+        this.eagerRefreshThresholdMillis = 5 * 60 * 1000;
+        this.forceRefreshOnFailure = false;
     }
     /**
      * Sets the auth credentials.
@@ -34269,6 +33796,799 @@ class AuthClient extends events_1.EventEmitter {
 }
 exports.AuthClient = AuthClient;
 //# sourceMappingURL=authclient.js.map
+
+/***/ }),
+
+/***/ 1569:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+// Copyright 2021 Google LLC
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//      http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.AwsClient = void 0;
+const awsrequestsigner_1 = __nccwpck_require__(1754);
+const baseexternalclient_1 = __nccwpck_require__(7391);
+/**
+ * AWS external account client. This is used for AWS workloads, where
+ * AWS STS GetCallerIdentity serialized signed requests are exchanged for
+ * GCP access token.
+ */
+class AwsClient extends baseexternalclient_1.BaseExternalAccountClient {
+    /**
+     * Instantiates an AwsClient instance using the provided JSON
+     * object loaded from an external account credentials file.
+     * An error is thrown if the credential is not a valid AWS credential.
+     * @param options The external account options object typically loaded
+     *   from the external account JSON credential file.
+     * @param additionalOptions Optional additional behavior customization
+     *   options. These currently customize expiration threshold time and
+     *   whether to retry on 401/403 API request errors.
+     */
+    constructor(options, additionalOptions) {
+        var _a;
+        super(options, additionalOptions);
+        this.environmentId = options.credential_source.environment_id;
+        // This is only required if the AWS region is not available in the
+        // AWS_REGION environment variable
+        this.regionUrl = options.credential_source.region_url;
+        // This is only required if AWS security credentials are not available in
+        // environment variables.
+        this.securityCredentialsUrl = options.credential_source.url;
+        this.regionalCredVerificationUrl =
+            options.credential_source.regional_cred_verification_url;
+        const match = (_a = this.environmentId) === null || _a === void 0 ? void 0 : _a.match(/^(aws)(\d+)$/);
+        if (!match || !this.regionalCredVerificationUrl) {
+            throw new Error('No valid AWS "credential_source" provided');
+        }
+        else if (parseInt(match[2], 10) !== 1) {
+            throw new Error(`aws version "${match[2]}" is not supported in the current build.`);
+        }
+        this.awsRequestSigner = null;
+        this.region = '';
+    }
+    /**
+     * Triggered when an external subject token is needed to be exchanged for a
+     * GCP access token via GCP STS endpoint.
+     * This uses the `options.credential_source` object to figure out how
+     * to retrieve the token using the current environment. In this case,
+     * this uses a serialized AWS signed request to the STS GetCallerIdentity
+     * endpoint.
+     * The logic is summarized as:
+     * 1. Retrieve AWS region from availability-zone.
+     * 2a. Check AWS credentials in environment variables. If not found, get
+     *     from security-credentials endpoint.
+     * 2b. Get AWS credentials from security-credentials endpoint. In order
+     *     to retrieve this, the AWS role needs to be determined by calling
+     *     security-credentials endpoint without any argument. Then the
+     *     credentials can be retrieved via: security-credentials/role_name
+     * 3. Generate the signed request to AWS STS GetCallerIdentity action.
+     * 4. Inject x-goog-cloud-target-resource into header and serialize the
+     *    signed request. This will be the subject-token to pass to GCP STS.
+     * @return A promise that resolves with the external subject token.
+     */
+    async retrieveSubjectToken() {
+        // Initialize AWS request signer if not already initialized.
+        if (!this.awsRequestSigner) {
+            this.region = await this.getAwsRegion();
+            this.awsRequestSigner = new awsrequestsigner_1.AwsRequestSigner(async () => {
+                // Check environment variables for permanent credentials first.
+                // https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html
+                if (process.env['AWS_ACCESS_KEY_ID'] &&
+                    process.env['AWS_SECRET_ACCESS_KEY']) {
+                    return {
+                        accessKeyId: process.env['AWS_ACCESS_KEY_ID'],
+                        secretAccessKey: process.env['AWS_SECRET_ACCESS_KEY'],
+                        // This is normally not available for permanent credentials.
+                        token: process.env['AWS_SESSION_TOKEN'],
+                    };
+                }
+                // Since the role on a VM can change, we don't need to cache it.
+                const roleName = await this.getAwsRoleName();
+                // Temporary credentials typically last for several hours.
+                // Expiration is returned in response.
+                // Consider future optimization of this logic to cache AWS tokens
+                // until their natural expiration.
+                const awsCreds = await this.getAwsSecurityCredentials(roleName);
+                return {
+                    accessKeyId: awsCreds.AccessKeyId,
+                    secretAccessKey: awsCreds.SecretAccessKey,
+                    token: awsCreds.Token,
+                };
+            }, this.region);
+        }
+        // Generate signed request to AWS STS GetCallerIdentity API.
+        // Use the required regional endpoint. Otherwise, the request will fail.
+        const options = await this.awsRequestSigner.getRequestOptions({
+            url: this.regionalCredVerificationUrl.replace('{region}', this.region),
+            method: 'POST',
+        });
+        // The GCP STS endpoint expects the headers to be formatted as:
+        // [
+        //   {key: 'x-amz-date', value: '...'},
+        //   {key: 'Authorization', value: '...'},
+        //   ...
+        // ]
+        // And then serialized as:
+        // encodeURIComponent(JSON.stringify({
+        //   url: '...',
+        //   method: 'POST',
+        //   headers: [{key: 'x-amz-date', value: '...'}, ...]
+        // }))
+        const reformattedHeader = [];
+        const extendedHeaders = Object.assign({
+            // The full, canonical resource name of the workload identity pool
+            // provider, with or without the HTTPS prefix.
+            // Including this header as part of the signature is recommended to
+            // ensure data integrity.
+            'x-goog-cloud-target-resource': this.audience,
+        }, options.headers);
+        // Reformat header to GCP STS expected format.
+        for (const key in extendedHeaders) {
+            reformattedHeader.push({
+                key,
+                value: extendedHeaders[key],
+            });
+        }
+        // Serialize the reformatted signed request.
+        return encodeURIComponent(JSON.stringify({
+            url: options.url,
+            method: options.method,
+            headers: reformattedHeader,
+        }));
+    }
+    /**
+     * @return A promise that resolves with the current AWS region.
+     */
+    async getAwsRegion() {
+        if (process.env['AWS_REGION']) {
+            return process.env['AWS_REGION'];
+        }
+        if (!this.regionUrl) {
+            throw new Error('Unable to determine AWS region due to missing ' +
+                '"options.credential_source.region_url"');
+        }
+        const opts = {
+            url: this.regionUrl,
+            method: 'GET',
+            responseType: 'text',
+        };
+        const response = await this.transporter.request(opts);
+        // Remove last character. For example, if us-east-2b is returned,
+        // the region would be us-east-2.
+        return response.data.substr(0, response.data.length - 1);
+    }
+    /**
+     * @return A promise that resolves with the assigned role to the current
+     *   AWS VM. This is needed for calling the security-credentials endpoint.
+     */
+    async getAwsRoleName() {
+        if (!this.securityCredentialsUrl) {
+            throw new Error('Unable to determine AWS role name due to missing ' +
+                '"options.credential_source.url"');
+        }
+        const opts = {
+            url: this.securityCredentialsUrl,
+            method: 'GET',
+            responseType: 'text',
+        };
+        const response = await this.transporter.request(opts);
+        return response.data;
+    }
+    /**
+     * Retrieves the temporary AWS credentials by calling the security-credentials
+     * endpoint as specified in the `credential_source` object.
+     * @param roleName The role attached to the current VM.
+     * @return A promise that resolves with the temporary AWS credentials
+     *   needed for creating the GetCallerIdentity signed request.
+     */
+    async getAwsSecurityCredentials(roleName) {
+        const response = await this.transporter.request({
+            url: `${this.securityCredentialsUrl}/${roleName}`,
+            responseType: 'json',
+        });
+        return response.data;
+    }
+}
+exports.AwsClient = AwsClient;
+//# sourceMappingURL=awsclient.js.map
+
+/***/ }),
+
+/***/ 1754:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+// Copyright 2021 Google LLC
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//      http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.AwsRequestSigner = void 0;
+const crypto_1 = __nccwpck_require__(8043);
+/** AWS Signature Version 4 signing algorithm identifier.  */
+const AWS_ALGORITHM = 'AWS4-HMAC-SHA256';
+/**
+ * The termination string for the AWS credential scope value as defined in
+ * https://docs.aws.amazon.com/general/latest/gr/sigv4-create-string-to-sign.html
+ */
+const AWS_REQUEST_TYPE = 'aws4_request';
+/**
+ * Implements an AWS API request signer based on the AWS Signature Version 4
+ * signing process.
+ * https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
+ */
+class AwsRequestSigner {
+    /**
+     * Instantiates an AWS API request signer used to send authenticated signed
+     * requests to AWS APIs based on the AWS Signature Version 4 signing process.
+     * This also provides a mechanism to generate the signed request without
+     * sending it.
+     * @param getCredentials A mechanism to retrieve AWS security credentials
+     *   when needed.
+     * @param region The AWS region to use.
+     */
+    constructor(getCredentials, region) {
+        this.getCredentials = getCredentials;
+        this.region = region;
+        this.crypto = crypto_1.createCrypto();
+    }
+    /**
+     * Generates the signed request for the provided HTTP request for calling
+     * an AWS API. This follows the steps described at:
+     * https://docs.aws.amazon.com/general/latest/gr/sigv4_signing.html
+     * @param amzOptions The AWS request options that need to be signed.
+     * @return A promise that resolves with the GaxiosOptions containing the
+     *   signed HTTP request parameters.
+     */
+    async getRequestOptions(amzOptions) {
+        if (!amzOptions.url) {
+            throw new Error('"url" is required in "amzOptions"');
+        }
+        // Stringify JSON requests. This will be set in the request body of the
+        // generated signed request.
+        const requestPayloadData = typeof amzOptions.data === 'object'
+            ? JSON.stringify(amzOptions.data)
+            : amzOptions.data;
+        const url = amzOptions.url;
+        const method = amzOptions.method || 'GET';
+        const requestPayload = amzOptions.body || requestPayloadData;
+        const additionalAmzHeaders = amzOptions.headers;
+        const awsSecurityCredentials = await this.getCredentials();
+        const uri = new URL(url);
+        const headerMap = await generateAuthenticationHeaderMap({
+            crypto: this.crypto,
+            host: uri.host,
+            canonicalUri: uri.pathname,
+            canonicalQuerystring: uri.search.substr(1),
+            method,
+            region: this.region,
+            securityCredentials: awsSecurityCredentials,
+            requestPayload,
+            additionalAmzHeaders,
+        });
+        // Append additional optional headers, eg. X-Amz-Target, Content-Type, etc.
+        const headers = Object.assign(
+        // Add x-amz-date if available.
+        headerMap.amzDate ? { 'x-amz-date': headerMap.amzDate } : {}, {
+            Authorization: headerMap.authorizationHeader,
+            host: uri.host,
+        }, additionalAmzHeaders || {});
+        if (awsSecurityCredentials.token) {
+            Object.assign(headers, {
+                'x-amz-security-token': awsSecurityCredentials.token,
+            });
+        }
+        const awsSignedReq = {
+            url,
+            method: method,
+            headers,
+        };
+        if (typeof requestPayload !== 'undefined') {
+            awsSignedReq.body = requestPayload;
+        }
+        return awsSignedReq;
+    }
+}
+exports.AwsRequestSigner = AwsRequestSigner;
+/**
+ * Creates the HMAC-SHA256 hash of the provided message using the
+ * provided key.
+ *
+ * @param crypto The crypto instance used to facilitate cryptographic
+ *   operations.
+ * @param key The HMAC-SHA256 key to use.
+ * @param msg The message to hash.
+ * @return The computed hash bytes.
+ */
+async function sign(crypto, key, msg) {
+    return await crypto.signWithHmacSha256(key, msg);
+}
+/**
+ * Calculates the signing key used to calculate the signature for
+ * AWS Signature Version 4 based on:
+ * https://docs.aws.amazon.com/general/latest/gr/sigv4-calculate-signature.html
+ *
+ * @param crypto The crypto instance used to facilitate cryptographic
+ *   operations.
+ * @param key The AWS secret access key.
+ * @param dateStamp The '%Y%m%d' date format.
+ * @param region The AWS region.
+ * @param serviceName The AWS service name, eg. sts.
+ * @return The signing key bytes.
+ */
+async function getSigningKey(crypto, key, dateStamp, region, serviceName) {
+    const kDate = await sign(crypto, `AWS4${key}`, dateStamp);
+    const kRegion = await sign(crypto, kDate, region);
+    const kService = await sign(crypto, kRegion, serviceName);
+    const kSigning = await sign(crypto, kService, 'aws4_request');
+    return kSigning;
+}
+/**
+ * Generates the authentication header map needed for generating the AWS
+ * Signature Version 4 signed request.
+ *
+ * @param option The options needed to compute the authentication header map.
+ * @return The AWS authentication header map which constitutes of the following
+ *   components: amz-date, authorization header and canonical query string.
+ */
+async function generateAuthenticationHeaderMap(options) {
+    const additionalAmzHeaders = options.additionalAmzHeaders || {};
+    const requestPayload = options.requestPayload || '';
+    // iam.amazonaws.com host => iam service.
+    // sts.us-east-2.amazonaws.com => sts service.
+    const serviceName = options.host.split('.')[0];
+    const now = new Date();
+    // Format: '%Y%m%dT%H%M%SZ'.
+    const amzDate = now
+        .toISOString()
+        .replace(/[-:]/g, '')
+        .replace(/\.[0-9]+/, '');
+    // Format: '%Y%m%d'.
+    const dateStamp = now.toISOString().replace(/[-]/g, '').replace(/T.*/, '');
+    // Change all additional headers to be lower case.
+    const reformattedAdditionalAmzHeaders = {};
+    Object.keys(additionalAmzHeaders).forEach(key => {
+        reformattedAdditionalAmzHeaders[key.toLowerCase()] =
+            additionalAmzHeaders[key];
+    });
+    // Add AWS token if available.
+    if (options.securityCredentials.token) {
+        reformattedAdditionalAmzHeaders['x-amz-security-token'] =
+            options.securityCredentials.token;
+    }
+    // Header keys need to be sorted alphabetically.
+    const amzHeaders = Object.assign({
+        host: options.host,
+    }, 
+    // Previously the date was not fixed with x-amz- and could be provided manually.
+    // https://github.com/boto/botocore/blob/879f8440a4e9ace5d3cf145ce8b3d5e5ffb892ef/tests/unit/auth/aws4_testsuite/get-header-value-trim.req
+    reformattedAdditionalAmzHeaders.date ? {} : { 'x-amz-date': amzDate }, reformattedAdditionalAmzHeaders);
+    let canonicalHeaders = '';
+    const signedHeadersList = Object.keys(amzHeaders).sort();
+    signedHeadersList.forEach(key => {
+        canonicalHeaders += `${key}:${amzHeaders[key]}\n`;
+    });
+    const signedHeaders = signedHeadersList.join(';');
+    const payloadHash = await options.crypto.sha256DigestHex(requestPayload);
+    // https://docs.aws.amazon.com/general/latest/gr/sigv4-create-canonical-request.html
+    const canonicalRequest = `${options.method}\n` +
+        `${options.canonicalUri}\n` +
+        `${options.canonicalQuerystring}\n` +
+        `${canonicalHeaders}\n` +
+        `${signedHeaders}\n` +
+        `${payloadHash}`;
+    const credentialScope = `${dateStamp}/${options.region}/${serviceName}/${AWS_REQUEST_TYPE}`;
+    // https://docs.aws.amazon.com/general/latest/gr/sigv4-create-string-to-sign.html
+    const stringToSign = `${AWS_ALGORITHM}\n` +
+        `${amzDate}\n` +
+        `${credentialScope}\n` +
+        (await options.crypto.sha256DigestHex(canonicalRequest));
+    // https://docs.aws.amazon.com/general/latest/gr/sigv4-calculate-signature.html
+    const signingKey = await getSigningKey(options.crypto, options.securityCredentials.secretAccessKey, dateStamp, options.region, serviceName);
+    const signature = await sign(options.crypto, signingKey, stringToSign);
+    // https://docs.aws.amazon.com/general/latest/gr/sigv4-add-signature-to-request.html
+    const authorizationHeader = `${AWS_ALGORITHM} Credential=${options.securityCredentials.accessKeyId}/` +
+        `${credentialScope}, SignedHeaders=${signedHeaders}, ` +
+        `Signature=${crypto_1.fromArrayBufferToHex(signature)}`;
+    return {
+        // Do not return x-amz-date if date is available.
+        amzDate: reformattedAdditionalAmzHeaders.date ? undefined : amzDate,
+        authorizationHeader,
+        canonicalQuerystring: options.canonicalQuerystring,
+    };
+}
+//# sourceMappingURL=awsrequestsigner.js.map
+
+/***/ }),
+
+/***/ 7391:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+// Copyright 2021 Google LLC
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//      http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.BaseExternalAccountClient = exports.CLOUD_RESOURCE_MANAGER = exports.EXTERNAL_ACCOUNT_TYPE = exports.EXPIRATION_TIME_OFFSET = void 0;
+const stream = __nccwpck_require__(2413);
+const authclient_1 = __nccwpck_require__(4627);
+const sts = __nccwpck_require__(6308);
+/**
+ * The required token exchange grant_type: rfc8693#section-2.1
+ */
+const STS_GRANT_TYPE = 'urn:ietf:params:oauth:grant-type:token-exchange';
+/**
+ * The requested token exchange requested_token_type: rfc8693#section-2.1
+ */
+const STS_REQUEST_TOKEN_TYPE = 'urn:ietf:params:oauth:token-type:access_token';
+/** The default OAuth scope to request when none is provided. */
+const DEFAULT_OAUTH_SCOPE = 'https://www.googleapis.com/auth/cloud-platform';
+/**
+ * Offset to take into account network delays and server clock skews.
+ */
+exports.EXPIRATION_TIME_OFFSET = 5 * 60 * 1000;
+/**
+ * The credentials JSON file type for external account clients.
+ * There are 3 types of JSON configs:
+ * 1. authorized_user => Google end user credential
+ * 2. service_account => Google service account credential
+ * 3. external_Account => non-GCP service (eg. AWS, Azure, K8s)
+ */
+exports.EXTERNAL_ACCOUNT_TYPE = 'external_account';
+/** Cloud resource manager URL used to retrieve project information. */
+exports.CLOUD_RESOURCE_MANAGER = 'https://cloudresourcemanager.googleapis.com/v1/projects/';
+/**
+ * Base external account client. This is used to instantiate AuthClients for
+ * exchanging external account credentials for GCP access token and authorizing
+ * requests to GCP APIs.
+ * The base class implements common logic for exchanging various type of
+ * external credentials for GCP access token. The logic of determining and
+ * retrieving the external credential based on the environment and
+ * credential_source will be left for the subclasses.
+ */
+class BaseExternalAccountClient extends authclient_1.AuthClient {
+    /**
+     * Instantiate a BaseExternalAccountClient instance using the provided JSON
+     * object loaded from an external account credentials file.
+     * @param options The external account options object typically loaded
+     *   from the external account JSON credential file.
+     * @param additionalOptions Optional additional behavior customization
+     *   options. These currently customize expiration threshold time and
+     *   whether to retry on 401/403 API request errors.
+     */
+    constructor(options, additionalOptions) {
+        super();
+        if (options.type !== exports.EXTERNAL_ACCOUNT_TYPE) {
+            throw new Error(`Expected "${exports.EXTERNAL_ACCOUNT_TYPE}" type but ` +
+                `received "${options.type}"`);
+        }
+        const clientAuth = options.client_id
+            ? {
+                confidentialClientType: 'basic',
+                clientId: options.client_id,
+                clientSecret: options.client_secret,
+            }
+            : undefined;
+        this.stsCredential = new sts.StsCredentials(options.token_url, clientAuth);
+        // Default OAuth scope. This could be overridden via public property.
+        this.scopes = [DEFAULT_OAUTH_SCOPE];
+        this.cachedAccessToken = null;
+        this.audience = options.audience;
+        this.subjectTokenType = options.subject_token_type;
+        this.quotaProjectId = options.quota_project_id;
+        this.serviceAccountImpersonationUrl =
+            options.service_account_impersonation_url;
+        // As threshold could be zero,
+        // eagerRefreshThresholdMillis || EXPIRATION_TIME_OFFSET will override the
+        // zero value.
+        if (typeof (additionalOptions === null || additionalOptions === void 0 ? void 0 : additionalOptions.eagerRefreshThresholdMillis) !== 'number') {
+            this.eagerRefreshThresholdMillis = exports.EXPIRATION_TIME_OFFSET;
+        }
+        else {
+            this.eagerRefreshThresholdMillis = additionalOptions
+                .eagerRefreshThresholdMillis;
+        }
+        this.forceRefreshOnFailure = !!(additionalOptions === null || additionalOptions === void 0 ? void 0 : additionalOptions.forceRefreshOnFailure);
+        this.projectId = null;
+        this.projectNumber = this.getProjectNumber(this.audience);
+    }
+    /**
+     * Provides a mechanism to inject GCP access tokens directly.
+     * When the provided credential expires, a new credential, using the
+     * external account options, is retrieved.
+     * @param credentials The Credentials object to set on the current client.
+     */
+    setCredentials(credentials) {
+        super.setCredentials(credentials);
+        this.cachedAccessToken = credentials;
+    }
+    /**
+     * @return A promise that resolves with the current GCP access token
+     *   response. If the current credential is expired, a new one is retrieved.
+     */
+    async getAccessToken() {
+        // If cached access token is unavailable or expired, force refresh.
+        if (!this.cachedAccessToken || this.isExpired(this.cachedAccessToken)) {
+            await this.refreshAccessTokenAsync();
+        }
+        // Return GCP access token in GetAccessTokenResponse format.
+        return {
+            token: this.cachedAccessToken.access_token,
+            res: this.cachedAccessToken.res,
+        };
+    }
+    /**
+     * The main authentication interface. It takes an optional url which when
+     * present is the endpoint> being accessed, and returns a Promise which
+     * resolves with authorization header fields.
+     *
+     * The result has the form:
+     * { Authorization: 'Bearer <access_token_value>' }
+     */
+    async getRequestHeaders() {
+        const accessTokenResponse = await this.getAccessToken();
+        const headers = {
+            Authorization: `Bearer ${accessTokenResponse.token}`,
+        };
+        return this.addSharedMetadataHeaders(headers);
+    }
+    request(opts, callback) {
+        if (callback) {
+            this.requestAsync(opts).then(r => callback(null, r), e => {
+                return callback(e, e.response);
+            });
+        }
+        else {
+            return this.requestAsync(opts);
+        }
+    }
+    /**
+     * @return A promise that resolves with the project ID corresponding to the
+     *   current workload identity pool. When not determinable, this resolves with
+     *   null.
+     *   This is introduced to match the current pattern of using the Auth
+     *   library:
+     *   const projectId = await auth.getProjectId();
+     *   const url = `https://dns.googleapis.com/dns/v1/projects/${projectId}`;
+     *   const res = await client.request({ url });
+     *   The resource may not have permission
+     *   (resourcemanager.projects.get) to call this API or the required
+     *   scopes may not be selected:
+     *   https://cloud.google.com/resource-manager/reference/rest/v1/projects/get#authorization-scopes
+     */
+    async getProjectId() {
+        if (this.projectId) {
+            // Return previously determined project ID.
+            return this.projectId;
+        }
+        else if (this.projectNumber) {
+            // Preferable not to use request() to avoid retrial policies.
+            const headers = await this.getRequestHeaders();
+            const response = await this.transporter.request({
+                headers,
+                url: `${exports.CLOUD_RESOURCE_MANAGER}${this.projectNumber}`,
+                responseType: 'json',
+            });
+            this.projectId = response.data.projectId;
+            return this.projectId;
+        }
+        return null;
+    }
+    /**
+     * Authenticates the provided HTTP request, processes it and resolves with the
+     * returned response.
+     * @param opts The HTTP request options.
+     * @param retry Whether the current attempt is a retry after a failed attempt.
+     * @return A promise that resolves with the successful response.
+     */
+    async requestAsync(opts, retry = false) {
+        let response;
+        try {
+            const requestHeaders = await this.getRequestHeaders();
+            opts.headers = opts.headers || {};
+            if (requestHeaders && requestHeaders['x-goog-user-project']) {
+                opts.headers['x-goog-user-project'] =
+                    requestHeaders['x-goog-user-project'];
+            }
+            if (requestHeaders && requestHeaders.Authorization) {
+                opts.headers.Authorization = requestHeaders.Authorization;
+            }
+            response = await this.transporter.request(opts);
+        }
+        catch (e) {
+            const res = e.response;
+            if (res) {
+                const statusCode = res.status;
+                // Retry the request for metadata if the following criteria are true:
+                // - We haven't already retried.  It only makes sense to retry once.
+                // - The response was a 401 or a 403
+                // - The request didn't send a readableStream
+                // - forceRefreshOnFailure is true
+                const isReadableStream = res.config.data instanceof stream.Readable;
+                const isAuthErr = statusCode === 401 || statusCode === 403;
+                if (!retry &&
+                    isAuthErr &&
+                    !isReadableStream &&
+                    this.forceRefreshOnFailure) {
+                    await this.refreshAccessTokenAsync();
+                    return await this.requestAsync(opts, true);
+                }
+            }
+            throw e;
+        }
+        return response;
+    }
+    /**
+     * Forces token refresh, even if unexpired tokens are currently cached.
+     * External credentials are exchanged for GCP access tokens via the token
+     * exchange endpoint and other settings provided in the client options
+     * object.
+     * If the service_account_impersonation_url is provided, an additional
+     * step to exchange the external account GCP access token for a service
+     * account impersonated token is performed.
+     * @return A promise that resolves with the fresh GCP access tokens.
+     */
+    async refreshAccessTokenAsync() {
+        // Retrieve the external credential.
+        const subjectToken = await this.retrieveSubjectToken();
+        // Construct the STS credentials options.
+        const stsCredentialsOptions = {
+            grantType: STS_GRANT_TYPE,
+            audience: this.audience,
+            requestedTokenType: STS_REQUEST_TOKEN_TYPE,
+            subjectToken,
+            subjectTokenType: this.subjectTokenType,
+            // generateAccessToken requires the provided access token to have
+            // scopes:
+            // https://www.googleapis.com/auth/iam or
+            // https://www.googleapis.com/auth/cloud-platform
+            // The new service account access token scopes will match the user
+            // provided ones.
+            scope: this.serviceAccountImpersonationUrl
+                ? [DEFAULT_OAUTH_SCOPE]
+                : this.getScopesArray(),
+        };
+        // Exchange the external credentials for a GCP access token.
+        const stsResponse = await this.stsCredential.exchangeToken(stsCredentialsOptions);
+        if (this.serviceAccountImpersonationUrl) {
+            this.cachedAccessToken = await this.getImpersonatedAccessToken(stsResponse.access_token);
+        }
+        else {
+            // Save response in cached access token.
+            this.cachedAccessToken = {
+                access_token: stsResponse.access_token,
+                expiry_date: new Date().getTime() + stsResponse.expires_in * 1000,
+                res: stsResponse.res,
+            };
+        }
+        // Save credentials.
+        this.credentials = {};
+        Object.assign(this.credentials, this.cachedAccessToken);
+        delete this.credentials.res;
+        // Trigger tokens event to notify external listeners.
+        this.emit('tokens', {
+            refresh_token: null,
+            expiry_date: this.cachedAccessToken.expiry_date,
+            access_token: this.cachedAccessToken.access_token,
+            token_type: 'Bearer',
+            id_token: null,
+        });
+        // Return the cached access token.
+        return this.cachedAccessToken;
+    }
+    /**
+     * Returns the workload identity pool project number if it is determinable
+     * from the audience resource name.
+     * @param audience The STS audience used to determine the project number.
+     * @return The project number associated with the workload identity pool, if
+     *   this can be determined from the STS audience field. Otherwise, null is
+     *   returned.
+     */
+    getProjectNumber(audience) {
+        // STS audience pattern:
+        // //iam.googleapis.com/projects/$PROJECT_NUMBER/locations/...
+        const match = audience.match(/\/projects\/([^/]+)/);
+        if (!match) {
+            return null;
+        }
+        return match[1];
+    }
+    /**
+     * Exchanges an external account GCP access token for a service
+     * account impersonated access token using iamcredentials
+     * GenerateAccessToken API.
+     * @param token The access token to exchange for a service account access
+     *   token.
+     * @return A promise that resolves with the service account impersonated
+     *   credentials response.
+     */
+    async getImpersonatedAccessToken(token) {
+        const opts = {
+            url: this.serviceAccountImpersonationUrl,
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                Authorization: `Bearer ${token}`,
+            },
+            data: {
+                scope: this.getScopesArray(),
+            },
+            responseType: 'json',
+        };
+        const response = await this.transporter.request(opts);
+        const successResponse = response.data;
+        return {
+            access_token: successResponse.accessToken,
+            // Convert from ISO format to timestamp.
+            expiry_date: new Date(successResponse.expireTime).getTime(),
+            res: response,
+        };
+    }
+    /**
+     * Returns whether the provided credentials are expired or not.
+     * If there is no expiry time, assumes the token is not expired or expiring.
+     * @param accessToken The credentials to check for expiration.
+     * @return Whether the credentials are expired or not.
+     */
+    isExpired(accessToken) {
+        const now = new Date().getTime();
+        return accessToken.expiry_date
+            ? now >= accessToken.expiry_date - this.eagerRefreshThresholdMillis
+            : false;
+    }
+    /**
+     * @return The list of scopes for the requested GCP access token.
+     */
+    getScopesArray() {
+        // Since scopes can be provided as string or array, the type should
+        // be normalized.
+        if (typeof this.scopes === 'string') {
+            return [this.scopes];
+        }
+        else if (typeof this.scopes === 'undefined') {
+            return [DEFAULT_OAUTH_SCOPE];
+        }
+        else {
+            return this.scopes;
+        }
+    }
+}
+exports.BaseExternalAccountClient = BaseExternalAccountClient;
+//# sourceMappingURL=baseexternalclient.js.map
 
 /***/ }),
 
@@ -34474,6 +34794,72 @@ async function isComputeEngine() {
 
 /***/ }),
 
+/***/ 4381:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+// Copyright 2021 Google LLC
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//      http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.ExternalAccountClient = void 0;
+const baseexternalclient_1 = __nccwpck_require__(7391);
+const identitypoolclient_1 = __nccwpck_require__(117);
+const awsclient_1 = __nccwpck_require__(1569);
+/**
+ * Dummy class with no constructor. Developers are expected to use fromJSON.
+ */
+class ExternalAccountClient {
+    constructor() {
+        throw new Error('ExternalAccountClients should be initialized via: ' +
+            'ExternalAccountClient.fromJSON(), ' +
+            'directly via explicit constructors, eg. ' +
+            'new AwsClient(options), new IdentityPoolClient(options) or via ' +
+            'new GoogleAuth(options).getClient()');
+    }
+    /**
+     * This static method will instantiate the
+     * corresponding type of external account credential depending on the
+     * underlying credential source.
+     * @param options The external account options object typically loaded
+     *   from the external account JSON credential file.
+     * @param additionalOptions Optional additional behavior customization
+     *   options. These currently customize expiration threshold time and
+     *   whether to retry on 401/403 API request errors.
+     * @return A BaseExternalAccountClient instance or null if the options
+     *   provided do not correspond to an external account credential.
+     */
+    static fromJSON(options, additionalOptions) {
+        var _a;
+        if (options && options.type === baseexternalclient_1.EXTERNAL_ACCOUNT_TYPE) {
+            if ((_a = options.credential_source) === null || _a === void 0 ? void 0 : _a.environment_id) {
+                return new awsclient_1.AwsClient(options, additionalOptions);
+            }
+            else {
+                return new identitypoolclient_1.IdentityPoolClient(options, additionalOptions);
+            }
+        }
+        else {
+            return null;
+        }
+    }
+}
+exports.ExternalAccountClient = ExternalAccountClient;
+//# sourceMappingURL=externalclient.js.map
+
+/***/ }),
+
 /***/ 695:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
@@ -34506,6 +34892,8 @@ const idtokenclient_1 = __nccwpck_require__(298);
 const envDetect_1 = __nccwpck_require__(1380);
 const jwtclient_1 = __nccwpck_require__(3959);
 const refreshclient_1 = __nccwpck_require__(8790);
+const externalclient_1 = __nccwpck_require__(4381);
+const baseexternalclient_1 = __nccwpck_require__(7391);
 exports.CLOUD_SDK_CLIENT_ID = '764086051850-6qr4p6gpi6hn506pt8ejuq83di341hur.apps.googleusercontent.com';
 class GoogleAuth {
     constructor(opts) {
@@ -34558,7 +34946,8 @@ class GoogleAuth {
                     const projectId = this.getProductionProjectId() ||
                         (await this.getFileProjectId()) ||
                         (await this.getDefaultServiceProjectId()) ||
-                        (await this.getGCEProjectId());
+                        (await this.getGCEProjectId()) ||
+                        (await this.getExternalAccountClientProjectId());
                     this._cachedProjectId = projectId;
                     if (!projectId) {
                         throw new Error('Unable to detect a Project Id in the current environment. \n' +
@@ -34573,6 +34962,13 @@ class GoogleAuth {
             });
         }
         return this._getDefaultProjectIdPromise;
+    }
+    /**
+     * @returns Any scopes (user-specified or default scopes specified by the
+     *   client library) that need to be set on the current Auth client.
+     */
+    getAnyScopes() {
+        return this.scopes || this.defaultScopes;
     }
     getApplicationDefault(optionsOrCallback = {}, callback) {
         let options;
@@ -34608,6 +35004,9 @@ class GoogleAuth {
                 credential.defaultScopes = this.defaultScopes;
                 credential.scopes = this.scopes;
             }
+            else if (credential instanceof baseexternalclient_1.BaseExternalAccountClient) {
+                credential.scopes = this.getAnyScopes();
+            }
             this.cachedCredential = credential;
             projectId = await this.getProjectId();
             return { credential, projectId };
@@ -34618,6 +35017,9 @@ class GoogleAuth {
             if (credential instanceof jwtclient_1.JWT) {
                 credential.defaultScopes = this.defaultScopes;
                 credential.scopes = this.scopes;
+            }
+            else if (credential instanceof baseexternalclient_1.BaseExternalAccountClient) {
+                credential.scopes = this.getAnyScopes();
             }
             this.cachedCredential = credential;
             projectId = await this.getProjectId();
@@ -34638,7 +35040,7 @@ class GoogleAuth {
         }
         // For GCE, just return a default ComputeClient. It will take care of
         // the rest.
-        options.scopes = this.scopes || this.defaultScopes;
+        options.scopes = this.getAnyScopes();
         this.cachedCredential = new computeclient_1.Compute(options);
         projectId = await this.getProjectId();
         return { projectId, credential: this.cachedCredential };
@@ -34750,13 +35152,18 @@ class GoogleAuth {
         options = options || {};
         if (json.type === 'authorized_user') {
             client = new refreshclient_1.UserRefreshClient(options);
+            client.fromJSON(json);
+        }
+        else if (json.type === baseexternalclient_1.EXTERNAL_ACCOUNT_TYPE) {
+            client = externalclient_1.ExternalAccountClient.fromJSON(json, options);
+            client.scopes = this.getAnyScopes();
         }
         else {
             options.scopes = this.scopes;
             client = new jwtclient_1.JWT(options);
             client.defaultScopes = this.defaultScopes;
+            client.fromJSON(json);
         }
-        client.fromJSON(json);
         return client;
     }
     /**
@@ -34772,13 +35179,18 @@ class GoogleAuth {
         options = options || {};
         if (json.type === 'authorized_user') {
             client = new refreshclient_1.UserRefreshClient(options);
+            client.fromJSON(json);
+        }
+        else if (json.type === baseexternalclient_1.EXTERNAL_ACCOUNT_TYPE) {
+            client = externalclient_1.ExternalAccountClient.fromJSON(json, options);
+            client.scopes = this.getAnyScopes();
         }
         else {
             options.scopes = this.scopes;
             client = new jwtclient_1.JWT(options);
             client.defaultScopes = this.defaultScopes;
+            client.fromJSON(json);
         }
-        client.fromJSON(json);
         // cache both raw data used to instantiate client and client itself.
         this.jsonContent = json;
         this.cachedCredential = client;
@@ -34913,6 +35325,21 @@ class GoogleAuth {
             return r.projectId;
         }
         else {
+            return null;
+        }
+    }
+    /**
+     * Gets the project ID from external account client if available.
+     */
+    async getExternalAccountClientProjectId() {
+        if (!this.jsonContent || this.jsonContent.type !== baseexternalclient_1.EXTERNAL_ACCOUNT_TYPE) {
+            return null;
+        }
+        const creds = await this.getClient();
+        try {
+            return await creds.getProjectId();
+        }
+        catch (e) {
             return null;
         }
     }
@@ -35129,6 +35556,167 @@ class IAMAuth {
 }
 exports.IAMAuth = IAMAuth;
 //# sourceMappingURL=iam.js.map
+
+/***/ }),
+
+/***/ 117:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+// Copyright 2021 Google LLC
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//      http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var _a, _b, _c;
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.IdentityPoolClient = void 0;
+const fs = __nccwpck_require__(5747);
+const util_1 = __nccwpck_require__(1669);
+const baseexternalclient_1 = __nccwpck_require__(7391);
+// fs.readfile is undefined in browser karma tests causing
+// `npm run browser-test` to fail as test.oauth2.ts imports this file via
+// src/index.ts.
+// Fallback to void function to avoid promisify throwing a TypeError.
+const readFile = util_1.promisify((_a = fs.readFile) !== null && _a !== void 0 ? _a : (() => { }));
+const realpath = util_1.promisify((_b = fs.realpath) !== null && _b !== void 0 ? _b : (() => { }));
+const lstat = util_1.promisify((_c = fs.lstat) !== null && _c !== void 0 ? _c : (() => { }));
+/**
+ * Defines the Url-sourced and file-sourced external account clients mainly
+ * used for K8s and Azure workloads.
+ */
+class IdentityPoolClient extends baseexternalclient_1.BaseExternalAccountClient {
+    /**
+     * Instantiate an IdentityPoolClient instance using the provided JSON
+     * object loaded from an external account credentials file.
+     * An error is thrown if the credential is not a valid file-sourced or
+     * url-sourced credential.
+     * @param options The external account options object typically loaded
+     *   from the external account JSON credential file.
+     * @param additionalOptions Optional additional behavior customization
+     *   options. These currently customize expiration threshold time and
+     *   whether to retry on 401/403 API request errors.
+     */
+    constructor(options, additionalOptions) {
+        var _a, _b;
+        super(options, additionalOptions);
+        this.file = options.credential_source.file;
+        this.url = options.credential_source.url;
+        this.headers = options.credential_source.headers;
+        if (!this.file && !this.url) {
+            throw new Error('No valid Identity Pool "credential_source" provided');
+        }
+        // Text is the default format type.
+        this.formatType = ((_a = options.credential_source.format) === null || _a === void 0 ? void 0 : _a.type) || 'text';
+        this.formatSubjectTokenFieldName = (_b = options.credential_source.format) === null || _b === void 0 ? void 0 : _b.subject_token_field_name;
+        if (this.formatType !== 'json' && this.formatType !== 'text') {
+            throw new Error(`Invalid credential_source format "${this.formatType}"`);
+        }
+        if (this.formatType === 'json' && !this.formatSubjectTokenFieldName) {
+            throw new Error('Missing subject_token_field_name for JSON credential_source format');
+        }
+    }
+    /**
+     * Triggered when a external subject token is needed to be exchanged for a GCP
+     * access token via GCP STS endpoint.
+     * This uses the `options.credential_source` object to figure out how
+     * to retrieve the token using the current environment. In this case,
+     * this either retrieves the local credential from a file location (k8s
+     * workload) or by sending a GET request to a local metadata server (Azure
+     * workloads).
+     * @return A promise that resolves with the external subject token.
+     */
+    async retrieveSubjectToken() {
+        if (this.file) {
+            return await this.getTokenFromFile(this.file, this.formatType, this.formatSubjectTokenFieldName);
+        }
+        return await this.getTokenFromUrl(this.url, this.formatType, this.formatSubjectTokenFieldName, this.headers);
+    }
+    /**
+     * Looks up the external subject token in the file path provided and
+     * resolves with that token.
+     * @param file The file path where the external credential is located.
+     * @param formatType The token file or URL response type (JSON or text).
+     * @param formatSubjectTokenFieldName For JSON response types, this is the
+     *   subject_token field name. For Azure, this is access_token. For text
+     *   response types, this is ignored.
+     * @return A promise that resolves with the external subject token.
+     */
+    async getTokenFromFile(filePath, formatType, formatSubjectTokenFieldName) {
+        // Make sure there is a file at the path. lstatSync will throw if there is
+        // nothing there.
+        try {
+            // Resolve path to actual file in case of symlink. Expect a thrown error
+            // if not resolvable.
+            filePath = await realpath(filePath);
+            if (!(await lstat(filePath)).isFile()) {
+                throw new Error();
+            }
+        }
+        catch (err) {
+            err.message = `The file at ${filePath} does not exist, or it is not a file. ${err.message}`;
+            throw err;
+        }
+        let subjectToken;
+        const rawText = await readFile(filePath, { encoding: 'utf8' });
+        if (formatType === 'text') {
+            subjectToken = rawText;
+        }
+        else if (formatType === 'json' && formatSubjectTokenFieldName) {
+            const json = JSON.parse(rawText);
+            subjectToken = json[formatSubjectTokenFieldName];
+        }
+        if (!subjectToken) {
+            throw new Error('Unable to parse the subject_token from the credential_source file');
+        }
+        return subjectToken;
+    }
+    /**
+     * Sends a GET request to the URL provided and resolves with the returned
+     * external subject token.
+     * @param url The URL to call to retrieve the subject token. This is typically
+     *   a local metadata server.
+     * @param formatType The token file or URL response type (JSON or text).
+     * @param formatSubjectTokenFieldName For JSON response types, this is the
+     *   subject_token field name. For Azure, this is access_token. For text
+     *   response types, this is ignored.
+     * @param headers The optional additional headers to send with the request to
+     *   the metadata server url.
+     * @return A promise that resolves with the external subject token.
+     */
+    async getTokenFromUrl(url, formatType, formatSubjectTokenFieldName, headers) {
+        const opts = {
+            url,
+            method: 'GET',
+            headers,
+            responseType: formatType,
+        };
+        let subjectToken;
+        if (formatType === 'text') {
+            const response = await this.transporter.request(opts);
+            subjectToken = response.data;
+        }
+        else if (formatType === 'json' && formatSubjectTokenFieldName) {
+            const response = await this.transporter.request(opts);
+            subjectToken = response.data[formatSubjectTokenFieldName];
+        }
+        if (!subjectToken) {
+            throw new Error('Unable to parse the subject_token from the credential_source URL');
+        }
+        return subjectToken;
+    }
+}
+exports.IdentityPoolClient = IdentityPoolClient;
+//# sourceMappingURL=identitypoolclient.js.map
 
 /***/ }),
 
@@ -36380,6 +36968,189 @@ OAuth2Client.ISSUERS_ = [
 
 /***/ }),
 
+/***/ 9510:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+// Copyright 2021 Google LLC
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//      http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.getErrorFromOAuthErrorResponse = exports.OAuthClientAuthHandler = void 0;
+const querystring = __nccwpck_require__(1191);
+const crypto_1 = __nccwpck_require__(8043);
+/** List of HTTP methods that accept request bodies. */
+const METHODS_SUPPORTING_REQUEST_BODY = ['PUT', 'POST', 'PATCH'];
+/**
+ * Abstract class for handling client authentication in OAuth-based
+ * operations.
+ * When request-body client authentication is used, only application/json and
+ * application/x-www-form-urlencoded content types for HTTP methods that support
+ * request bodies are supported.
+ */
+class OAuthClientAuthHandler {
+    /**
+     * Instantiates an OAuth client authentication handler.
+     * @param clientAuthentication The client auth credentials.
+     */
+    constructor(clientAuthentication) {
+        this.clientAuthentication = clientAuthentication;
+        this.crypto = crypto_1.createCrypto();
+    }
+    /**
+     * Applies client authentication on the OAuth request's headers or POST
+     * body but does not process the request.
+     * @param opts The GaxiosOptions whose headers or data are to be modified
+     *   depending on the client authentication mechanism to be used.
+     * @param bearerToken The optional bearer token to use for authentication.
+     *   When this is used, no client authentication credentials are needed.
+     */
+    applyClientAuthenticationOptions(opts, bearerToken) {
+        // Inject authenticated header.
+        this.injectAuthenticatedHeaders(opts, bearerToken);
+        // Inject authenticated request body.
+        if (!bearerToken) {
+            this.injectAuthenticatedRequestBody(opts);
+        }
+    }
+    /**
+     * Applies client authentication on the request's header if either
+     * basic authentication or bearer token authentication is selected.
+     *
+     * @param opts The GaxiosOptions whose headers or data are to be modified
+     *   depending on the client authentication mechanism to be used.
+     * @param bearerToken The optional bearer token to use for authentication.
+     *   When this is used, no client authentication credentials are needed.
+     */
+    injectAuthenticatedHeaders(opts, bearerToken) {
+        var _a;
+        // Bearer token prioritized higher than basic Auth.
+        if (bearerToken) {
+            opts.headers = opts.headers || {};
+            Object.assign(opts.headers, {
+                Authorization: `Bearer ${bearerToken}}`,
+            });
+        }
+        else if (((_a = this.clientAuthentication) === null || _a === void 0 ? void 0 : _a.confidentialClientType) === 'basic') {
+            opts.headers = opts.headers || {};
+            const clientId = this.clientAuthentication.clientId;
+            const clientSecret = this.clientAuthentication.clientSecret || '';
+            const base64EncodedCreds = this.crypto.encodeBase64StringUtf8(`${clientId}:${clientSecret}`);
+            Object.assign(opts.headers, {
+                Authorization: `Basic ${base64EncodedCreds}`,
+            });
+        }
+    }
+    /**
+     * Applies client authentication on the request's body if request-body
+     * client authentication is selected.
+     *
+     * @param opts The GaxiosOptions whose headers or data are to be modified
+     *   depending on the client authentication mechanism to be used.
+     */
+    injectAuthenticatedRequestBody(opts) {
+        var _a;
+        if (((_a = this.clientAuthentication) === null || _a === void 0 ? void 0 : _a.confidentialClientType) === 'request-body') {
+            const method = (opts.method || 'GET').toUpperCase();
+            // Inject authenticated request body.
+            if (METHODS_SUPPORTING_REQUEST_BODY.indexOf(method) !== -1) {
+                // Get content-type.
+                let contentType;
+                const headers = opts.headers || {};
+                for (const key in headers) {
+                    if (key.toLowerCase() === 'content-type' && headers[key]) {
+                        contentType = headers[key].toLowerCase();
+                        break;
+                    }
+                }
+                if (contentType === 'application/x-www-form-urlencoded') {
+                    opts.data = opts.data || '';
+                    const data = querystring.parse(opts.data);
+                    Object.assign(data, {
+                        client_id: this.clientAuthentication.clientId,
+                        client_secret: this.clientAuthentication.clientSecret || '',
+                    });
+                    opts.data = querystring.stringify(data);
+                }
+                else if (contentType === 'application/json') {
+                    opts.data = opts.data || {};
+                    Object.assign(opts.data, {
+                        client_id: this.clientAuthentication.clientId,
+                        client_secret: this.clientAuthentication.clientSecret || '',
+                    });
+                }
+                else {
+                    throw new Error(`${contentType} content-types are not supported with ` +
+                        `${this.clientAuthentication.confidentialClientType} ` +
+                        'client authentication');
+                }
+            }
+            else {
+                throw new Error(`${method} HTTP method does not support ` +
+                    `${this.clientAuthentication.confidentialClientType} ` +
+                    'client authentication');
+            }
+        }
+    }
+}
+exports.OAuthClientAuthHandler = OAuthClientAuthHandler;
+/**
+ * Converts an OAuth error response to a native JavaScript Error.
+ * @param resp The OAuth error response to convert to a native Error object.
+ * @param err The optional original error. If provided, the error properties
+ *   will be copied to the new error.
+ * @return The converted native Error object.
+ */
+function getErrorFromOAuthErrorResponse(resp, err) {
+    // Error response.
+    const errorCode = resp.error;
+    const errorDescription = resp.error_description;
+    const errorUri = resp.error_uri;
+    let message = `Error code ${errorCode}`;
+    if (typeof errorDescription !== 'undefined') {
+        message += `: ${errorDescription}`;
+    }
+    if (typeof errorUri !== 'undefined') {
+        message += ` - ${errorUri}`;
+    }
+    const newError = new Error(message);
+    // Copy properties from original error to newly generated error.
+    if (err) {
+        const keys = Object.keys(err);
+        if (err.stack) {
+            // Copy error.stack if available.
+            keys.push('stack');
+        }
+        keys.forEach(key => {
+            // Do not overwrite the message field.
+            if (key !== 'message') {
+                Object.defineProperty(newError, key, {
+                    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+                    value: err[key],
+                    writable: false,
+                    enumerable: true,
+                });
+            }
+        });
+    }
+    return newError;
+}
+exports.getErrorFromOAuthErrorResponse = getErrorFromOAuthErrorResponse;
+//# sourceMappingURL=oauth2common.js.map
+
+/***/ }),
+
 /***/ 8790:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
@@ -36494,6 +37265,121 @@ exports.UserRefreshClient = UserRefreshClient;
 
 /***/ }),
 
+/***/ 6308:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+// Copyright 2021 Google LLC
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//      http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.StsCredentials = void 0;
+const querystring = __nccwpck_require__(1191);
+const transporters_1 = __nccwpck_require__(2649);
+const oauth2common_1 = __nccwpck_require__(9510);
+/**
+ * Implements the OAuth 2.0 token exchange based on
+ * https://tools.ietf.org/html/rfc8693
+ */
+class StsCredentials extends oauth2common_1.OAuthClientAuthHandler {
+    /**
+     * Initializes an STS credentials instance.
+     * @param tokenExchangeEndpoint The token exchange endpoint.
+     * @param clientAuthentication The client authentication credentials if
+     *   available.
+     */
+    constructor(tokenExchangeEndpoint, clientAuthentication) {
+        super(clientAuthentication);
+        this.tokenExchangeEndpoint = tokenExchangeEndpoint;
+        this.transporter = new transporters_1.DefaultTransporter();
+    }
+    /**
+     * Exchanges the provided token for another type of token based on the
+     * rfc8693 spec.
+     * @param stsCredentialsOptions The token exchange options used to populate
+     *   the token exchange request.
+     * @param additionalHeaders Optional additional headers to pass along the
+     *   request.
+     * @param options Optional additional GCP-specific non-spec defined options
+     *   to send with the request.
+     *   Example: `&options=${encodeUriComponent(JSON.stringified(options))}`
+     * @return A promise that resolves with the token exchange response containing
+     *   the requested token and its expiration time.
+     */
+    async exchangeToken(stsCredentialsOptions, additionalHeaders, 
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    options) {
+        var _a, _b, _c;
+        const values = {
+            grant_type: stsCredentialsOptions.grantType,
+            resource: stsCredentialsOptions.resource,
+            audience: stsCredentialsOptions.audience,
+            scope: (_a = stsCredentialsOptions.scope) === null || _a === void 0 ? void 0 : _a.join(' '),
+            requested_token_type: stsCredentialsOptions.requestedTokenType,
+            subject_token: stsCredentialsOptions.subjectToken,
+            subject_token_type: stsCredentialsOptions.subjectTokenType,
+            actor_token: (_b = stsCredentialsOptions.actingParty) === null || _b === void 0 ? void 0 : _b.actorToken,
+            actor_token_type: (_c = stsCredentialsOptions.actingParty) === null || _c === void 0 ? void 0 : _c.actorTokenType,
+            // Non-standard GCP-specific options.
+            options: options && JSON.stringify(options),
+        };
+        // Remove undefined fields.
+        Object.keys(values).forEach(key => {
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
+            if (typeof values[key] === 'undefined') {
+                // eslint-disable-next-line @typescript-eslint/no-explicit-any
+                delete values[key];
+            }
+        });
+        const headers = {
+            'Content-Type': 'application/x-www-form-urlencoded',
+        };
+        // Inject additional STS headers if available.
+        Object.assign(headers, additionalHeaders || {});
+        const opts = {
+            url: this.tokenExchangeEndpoint,
+            method: 'POST',
+            headers,
+            data: querystring.stringify(values),
+            responseType: 'json',
+        };
+        // Apply OAuth client authentication.
+        this.applyClientAuthenticationOptions(opts);
+        try {
+            const response = await this.transporter.request(opts);
+            // Successful response.
+            const stsSuccessfulResponse = response.data;
+            stsSuccessfulResponse.res = response;
+            return stsSuccessfulResponse;
+        }
+        catch (error) {
+            // Translate error to OAuthError.
+            if (error.response) {
+                throw oauth2common_1.getErrorFromOAuthErrorResponse(error.response.data, 
+                // Preserve other fields from the original error.
+                error);
+            }
+            // Request could fail before the server responds.
+            throw error;
+        }
+    }
+}
+exports.StsCredentials = StsCredentials;
+//# sourceMappingURL=stscredentials.js.map
+
+/***/ }),
+
 /***/ 4693:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
@@ -36525,6 +37411,7 @@ const base64js = __nccwpck_require__(6463);
 if (typeof process === 'undefined' && typeof TextEncoder === 'undefined') {
     __nccwpck_require__(1917);
 }
+const crypto_1 = __nccwpck_require__(8043);
 class BrowserCrypto {
     constructor() {
         if (typeof window === 'undefined' ||
@@ -36595,6 +37482,46 @@ class BrowserCrypto {
         const result = base64js.fromByteArray(uint8array);
         return result;
     }
+    /**
+     * Computes the SHA-256 hash of the provided string.
+     * @param str The plain text string to hash.
+     * @return A promise that resolves with the SHA-256 hash of the provided
+     *   string in hexadecimal encoding.
+     */
+    async sha256DigestHex(str) {
+        // SubtleCrypto digest() method is async, so we must make
+        // this method async as well.
+        // To calculate SHA256 digest using SubtleCrypto, we first
+        // need to convert an input string to an ArrayBuffer:
+        // eslint-disable-next-line node/no-unsupported-features/node-builtins
+        const inputBuffer = new TextEncoder().encode(str);
+        // Result is ArrayBuffer as well.
+        const outputBuffer = await window.crypto.subtle.digest('SHA-256', inputBuffer);
+        return crypto_1.fromArrayBufferToHex(outputBuffer);
+    }
+    /**
+     * Computes the HMAC hash of a message using the provided crypto key and the
+     * SHA-256 algorithm.
+     * @param key The secret crypto key in utf-8 or ArrayBuffer format.
+     * @param msg The plain text message.
+     * @return A promise that resolves with the HMAC-SHA256 hash in ArrayBuffer
+     *   format.
+     */
+    async signWithHmacSha256(key, msg) {
+        // Convert key, if provided in ArrayBuffer format, to string.
+        const rawKey = typeof key === 'string'
+            ? key
+            : String.fromCharCode(...new Uint16Array(key));
+        // eslint-disable-next-line node/no-unsupported-features/node-builtins
+        const enc = new TextEncoder();
+        const cryptoKey = await window.crypto.subtle.importKey('raw', enc.encode(rawKey), {
+            name: 'HMAC',
+            hash: {
+                name: 'SHA-256',
+            },
+        }, false, ['sign']);
+        return window.crypto.subtle.sign('HMAC', cryptoKey, enc.encode(msg));
+    }
 }
 exports.BrowserCrypto = BrowserCrypto;
 //# sourceMappingURL=crypto.js.map
@@ -36621,7 +37548,7 @@ exports.BrowserCrypto = BrowserCrypto;
 // limitations under the License.
 /* global window */
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.hasBrowserCrypto = exports.createCrypto = void 0;
+exports.fromArrayBufferToHex = exports.hasBrowserCrypto = exports.createCrypto = void 0;
 const crypto_1 = __nccwpck_require__(4693);
 const crypto_2 = __nccwpck_require__(757);
 function createCrypto() {
@@ -36637,6 +37564,22 @@ function hasBrowserCrypto() {
         typeof window.crypto.subtle !== 'undefined');
 }
 exports.hasBrowserCrypto = hasBrowserCrypto;
+/**
+ * Converts an ArrayBuffer to a hexadecimal string.
+ * @param arrayBuffer The ArrayBuffer to convert to hexadecimal string.
+ * @return The hexadecimal encoding of the ArrayBuffer.
+ */
+function fromArrayBufferToHex(arrayBuffer) {
+    // Convert buffer to byte array.
+    const byteArray = Array.from(new Uint8Array(arrayBuffer));
+    // Convert bytes to hex string.
+    return byteArray
+        .map(byte => {
+        return byte.toString(16).padStart(2, '0');
+    })
+        .join('');
+}
+exports.fromArrayBufferToHex = fromArrayBufferToHex;
 //# sourceMappingURL=crypto.js.map
 
 /***/ }),
@@ -36687,8 +37630,46 @@ class NodeCrypto {
     encodeBase64StringUtf8(text) {
         return Buffer.from(text, 'utf-8').toString('base64');
     }
+    /**
+     * Computes the SHA-256 hash of the provided string.
+     * @param str The plain text string to hash.
+     * @return A promise that resolves with the SHA-256 hash of the provided
+     *   string in hexadecimal encoding.
+     */
+    async sha256DigestHex(str) {
+        return crypto.createHash('sha256').update(str).digest('hex');
+    }
+    /**
+     * Computes the HMAC hash of a message using the provided crypto key and the
+     * SHA-256 algorithm.
+     * @param key The secret crypto key in utf-8 or ArrayBuffer format.
+     * @param msg The plain text message.
+     * @return A promise that resolves with the HMAC-SHA256 hash in ArrayBuffer
+     *   format.
+     */
+    async signWithHmacSha256(key, msg) {
+        const cryptoKey = typeof key === 'string' ? key : toBuffer(key);
+        return toArrayBuffer(crypto.createHmac('sha256', cryptoKey).update(msg).digest());
+    }
 }
 exports.NodeCrypto = NodeCrypto;
+/**
+ * Converts a Node.js Buffer to an ArrayBuffer.
+ * https://stackoverflow.com/questions/8609289/convert-a-binary-nodejs-buffer-to-javascript-arraybuffer
+ * @param buffer The Buffer input to covert.
+ * @return The ArrayBuffer representation of the input.
+ */
+function toArrayBuffer(buffer) {
+    return buffer.buffer.slice(buffer.byteOffset, buffer.byteOffset + buffer.byteLength);
+}
+/**
+ * Converts an ArrayBuffer to a Node.js Buffer.
+ * @param arrayBuffer The ArrayBuffer input to covert.
+ * @return The Buffer representation of the input.
+ */
+function toBuffer(arrayBuffer) {
+    return Buffer.from(arrayBuffer);
+}
 //# sourceMappingURL=crypto.js.map
 
 /***/ }),
@@ -36734,6 +37715,14 @@ var loginticket_1 = __nccwpck_require__(4524);
 Object.defineProperty(exports, "LoginTicket", ({ enumerable: true, get: function () { return loginticket_1.LoginTicket; } }));
 var refreshclient_1 = __nccwpck_require__(8790);
 Object.defineProperty(exports, "UserRefreshClient", ({ enumerable: true, get: function () { return refreshclient_1.UserRefreshClient; } }));
+var awsclient_1 = __nccwpck_require__(1569);
+Object.defineProperty(exports, "AwsClient", ({ enumerable: true, get: function () { return awsclient_1.AwsClient; } }));
+var identitypoolclient_1 = __nccwpck_require__(117);
+Object.defineProperty(exports, "IdentityPoolClient", ({ enumerable: true, get: function () { return identitypoolclient_1.IdentityPoolClient; } }));
+var externalclient_1 = __nccwpck_require__(4381);
+Object.defineProperty(exports, "ExternalAccountClient", ({ enumerable: true, get: function () { return externalclient_1.ExternalAccountClient; } }));
+var baseexternalclient_1 = __nccwpck_require__(7391);
+Object.defineProperty(exports, "BaseExternalAccountClient", ({ enumerable: true, get: function () { return baseexternalclient_1.BaseExternalAccountClient; } }));
 var transporters_1 = __nccwpck_require__(2649);
 Object.defineProperty(exports, "DefaultTransporter", ({ enumerable: true, get: function () { return transporters_1.DefaultTransporter; } }));
 const auth = new googleauth_1.GoogleAuth();
@@ -44425,6 +45414,170 @@ const forEachStep = (self, fn, node, thisp) => {
 }
 
 module.exports = LRUCache
+
+
+/***/ }),
+
+/***/ 9126:
+/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
+
+"use strict";
+
+const fs = __nccwpck_require__(5747);
+const path = __nccwpck_require__(5622);
+const {promisify} = __nccwpck_require__(1669);
+const semver = __nccwpck_require__(5911);
+
+const useNativeRecursiveOption = semver.satisfies(process.version, '>=10.12.0');
+
+// https://github.com/nodejs/node/issues/8987
+// https://github.com/libuv/libuv/pull/1088
+const checkPath = pth => {
+	if (process.platform === 'win32') {
+		const pathHasInvalidWinCharacters = /[<>:"|?*]/.test(pth.replace(path.parse(pth).root, ''));
+
+		if (pathHasInvalidWinCharacters) {
+			const error = new Error(`Path contains invalid characters: ${pth}`);
+			error.code = 'EINVAL';
+			throw error;
+		}
+	}
+};
+
+const processOptions = options => {
+	// https://github.com/sindresorhus/make-dir/issues/18
+	const defaults = {
+		mode: 0o777,
+		fs
+	};
+
+	return {
+		...defaults,
+		...options
+	};
+};
+
+const permissionError = pth => {
+	// This replicates the exception of `fs.mkdir` with native the
+	// `recusive` option when run on an invalid drive under Windows.
+	const error = new Error(`operation not permitted, mkdir '${pth}'`);
+	error.code = 'EPERM';
+	error.errno = -4048;
+	error.path = pth;
+	error.syscall = 'mkdir';
+	return error;
+};
+
+const makeDir = async (input, options) => {
+	checkPath(input);
+	options = processOptions(options);
+
+	const mkdir = promisify(options.fs.mkdir);
+	const stat = promisify(options.fs.stat);
+
+	if (useNativeRecursiveOption && options.fs.mkdir === fs.mkdir) {
+		const pth = path.resolve(input);
+
+		await mkdir(pth, {
+			mode: options.mode,
+			recursive: true
+		});
+
+		return pth;
+	}
+
+	const make = async pth => {
+		try {
+			await mkdir(pth, options.mode);
+
+			return pth;
+		} catch (error) {
+			if (error.code === 'EPERM') {
+				throw error;
+			}
+
+			if (error.code === 'ENOENT') {
+				if (path.dirname(pth) === pth) {
+					throw permissionError(pth);
+				}
+
+				if (error.message.includes('null bytes')) {
+					throw error;
+				}
+
+				await make(path.dirname(pth));
+
+				return make(pth);
+			}
+
+			try {
+				const stats = await stat(pth);
+				if (!stats.isDirectory()) {
+					throw new Error('The path is not a directory');
+				}
+			} catch (_) {
+				throw error;
+			}
+
+			return pth;
+		}
+	};
+
+	return make(path.resolve(input));
+};
+
+module.exports = makeDir;
+
+module.exports.sync = (input, options) => {
+	checkPath(input);
+	options = processOptions(options);
+
+	if (useNativeRecursiveOption && options.fs.mkdirSync === fs.mkdirSync) {
+		const pth = path.resolve(input);
+
+		fs.mkdirSync(pth, {
+			mode: options.mode,
+			recursive: true
+		});
+
+		return pth;
+	}
+
+	const make = pth => {
+		try {
+			options.fs.mkdirSync(pth, options.mode);
+		} catch (error) {
+			if (error.code === 'EPERM') {
+				throw error;
+			}
+
+			if (error.code === 'ENOENT') {
+				if (path.dirname(pth) === pth) {
+					throw permissionError(pth);
+				}
+
+				if (error.message.includes('null bytes')) {
+					throw error;
+				}
+
+				make(path.dirname(pth));
+				return make(pth);
+			}
+
+			try {
+				if (!options.fs.statSync(pth).isDirectory()) {
+					throw new Error('The path is not a directory');
+				}
+			} catch (_) {
+				throw error;
+			}
+		}
+
+		return pth;
+	};
+
+	return make(path.resolve(input));
+};
 
 
 /***/ }),
@@ -101616,6 +102769,273 @@ function wrappy (fn, cb) {
 
 /***/ }),
 
+/***/ 3507:
+/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
+
+"use strict";
+
+module.exports = writeFile
+module.exports.sync = writeFileSync
+module.exports._getTmpname = getTmpname // for testing
+module.exports._cleanupOnExit = cleanupOnExit
+
+const fs = __nccwpck_require__(5747)
+const MurmurHash3 = __nccwpck_require__(2527)
+const onExit = __nccwpck_require__(4931)
+const path = __nccwpck_require__(5622)
+const isTypedArray = __nccwpck_require__(657)
+const typedArrayToBuffer = __nccwpck_require__(1315)
+const { promisify } = __nccwpck_require__(1669)
+const activeFiles = {}
+
+// if we run inside of a worker_thread, `process.pid` is not unique
+/* istanbul ignore next */
+const threadId = (function getId () {
+  try {
+    const workerThreads = __nccwpck_require__(5013)
+
+    /// if we are in main thread, this is set to `0`
+    return workerThreads.threadId
+  } catch (e) {
+    // worker_threads are not available, fallback to 0
+    return 0
+  }
+})()
+
+let invocations = 0
+function getTmpname (filename) {
+  return filename + '.' +
+    MurmurHash3(__filename)
+      .hash(String(process.pid))
+      .hash(String(threadId))
+      .hash(String(++invocations))
+      .result()
+}
+
+function cleanupOnExit (tmpfile) {
+  return () => {
+    try {
+      fs.unlinkSync(typeof tmpfile === 'function' ? tmpfile() : tmpfile)
+    } catch (_) {}
+  }
+}
+
+function serializeActiveFile (absoluteName) {
+  return new Promise(resolve => {
+    // make a queue if it doesn't already exist
+    if (!activeFiles[absoluteName]) activeFiles[absoluteName] = []
+
+    activeFiles[absoluteName].push(resolve) // add this job to the queue
+    if (activeFiles[absoluteName].length === 1) resolve() // kick off the first one
+  })
+}
+
+// https://github.com/isaacs/node-graceful-fs/blob/master/polyfills.js#L315-L342
+function isChownErrOk (err) {
+  if (err.code === 'ENOSYS') {
+    return true
+  }
+
+  const nonroot = !process.getuid || process.getuid() !== 0
+  if (nonroot) {
+    if (err.code === 'EINVAL' || err.code === 'EPERM') {
+      return true
+    }
+  }
+
+  return false
+}
+
+async function writeFileAsync (filename, data, options = {}) {
+  if (typeof options === 'string') {
+    options = { encoding: options }
+  }
+
+  let fd
+  let tmpfile
+  /* istanbul ignore next -- The closure only gets called when onExit triggers */
+  const removeOnExitHandler = onExit(cleanupOnExit(() => tmpfile))
+  const absoluteName = path.resolve(filename)
+
+  try {
+    await serializeActiveFile(absoluteName)
+    const truename = await promisify(fs.realpath)(filename).catch(() => filename)
+    tmpfile = getTmpname(truename)
+
+    if (!options.mode || !options.chown) {
+      // Either mode or chown is not explicitly set
+      // Default behavior is to copy it from original file
+      const stats = await promisify(fs.stat)(truename).catch(() => {})
+      if (stats) {
+        if (options.mode == null) {
+          options.mode = stats.mode
+        }
+
+        if (options.chown == null && process.getuid) {
+          options.chown = { uid: stats.uid, gid: stats.gid }
+        }
+      }
+    }
+
+    fd = await promisify(fs.open)(tmpfile, 'w', options.mode)
+    if (options.tmpfileCreated) {
+      await options.tmpfileCreated(tmpfile)
+    }
+    if (isTypedArray(data)) {
+      data = typedArrayToBuffer(data)
+    }
+    if (Buffer.isBuffer(data)) {
+      await promisify(fs.write)(fd, data, 0, data.length, 0)
+    } else if (data != null) {
+      await promisify(fs.write)(fd, String(data), 0, String(options.encoding || 'utf8'))
+    }
+
+    if (options.fsync !== false) {
+      await promisify(fs.fsync)(fd)
+    }
+
+    await promisify(fs.close)(fd)
+    fd = null
+
+    if (options.chown) {
+      await promisify(fs.chown)(tmpfile, options.chown.uid, options.chown.gid).catch(err => {
+        if (!isChownErrOk(err)) {
+          throw err
+        }
+      })
+    }
+
+    if (options.mode) {
+      await promisify(fs.chmod)(tmpfile, options.mode).catch(err => {
+        if (!isChownErrOk(err)) {
+          throw err
+        }
+      })
+    }
+
+    await promisify(fs.rename)(tmpfile, truename)
+  } finally {
+    if (fd) {
+      await promisify(fs.close)(fd).catch(
+        /* istanbul ignore next */
+        () => {}
+      )
+    }
+    removeOnExitHandler()
+    await promisify(fs.unlink)(tmpfile).catch(() => {})
+    activeFiles[absoluteName].shift() // remove the element added by serializeSameFile
+    if (activeFiles[absoluteName].length > 0) {
+      activeFiles[absoluteName][0]() // start next job if one is pending
+    } else delete activeFiles[absoluteName]
+  }
+}
+
+function writeFile (filename, data, options, callback) {
+  if (options instanceof Function) {
+    callback = options
+    options = {}
+  }
+
+  const promise = writeFileAsync(filename, data, options)
+  if (callback) {
+    promise.then(callback, callback)
+  }
+
+  return promise
+}
+
+function writeFileSync (filename, data, options) {
+  if (typeof options === 'string') options = { encoding: options }
+  else if (!options) options = {}
+  try {
+    filename = fs.realpathSync(filename)
+  } catch (ex) {
+    // it's ok, it'll happen on a not yet existing file
+  }
+  const tmpfile = getTmpname(filename)
+
+  if (!options.mode || !options.chown) {
+    // Either mode or chown is not explicitly set
+    // Default behavior is to copy it from original file
+    try {
+      const stats = fs.statSync(filename)
+      options = Object.assign({}, options)
+      if (!options.mode) {
+        options.mode = stats.mode
+      }
+      if (!options.chown && process.getuid) {
+        options.chown = { uid: stats.uid, gid: stats.gid }
+      }
+    } catch (ex) {
+      // ignore stat errors
+    }
+  }
+
+  let fd
+  const cleanup = cleanupOnExit(tmpfile)
+  const removeOnExitHandler = onExit(cleanup)
+
+  let threw = true
+  try {
+    fd = fs.openSync(tmpfile, 'w', options.mode || 0o666)
+    if (options.tmpfileCreated) {
+      options.tmpfileCreated(tmpfile)
+    }
+    if (isTypedArray(data)) {
+      data = typedArrayToBuffer(data)
+    }
+    if (Buffer.isBuffer(data)) {
+      fs.writeSync(fd, data, 0, data.length, 0)
+    } else if (data != null) {
+      fs.writeSync(fd, String(data), 0, String(options.encoding || 'utf8'))
+    }
+    if (options.fsync !== false) {
+      fs.fsyncSync(fd)
+    }
+
+    fs.closeSync(fd)
+    fd = null
+
+    if (options.chown) {
+      try {
+        fs.chownSync(tmpfile, options.chown.uid, options.chown.gid)
+      } catch (err) {
+        if (!isChownErrOk(err)) {
+          throw err
+        }
+      }
+    }
+
+    if (options.mode) {
+      try {
+        fs.chmodSync(tmpfile, options.mode)
+      } catch (err) {
+        if (!isChownErrOk(err)) {
+          throw err
+        }
+      }
+    }
+
+    fs.renameSync(tmpfile, filename)
+    threw = false
+  } finally {
+    if (fd) {
+      try {
+        fs.closeSync(fd)
+      } catch (ex) {
+        // ignore close errors at this stage, error may have closed fd already.
+      }
+    }
+    removeOnExitHandler()
+    if (threw) {
+      cleanup()
+    }
+  }
+}
+
+
+/***/ }),
+
 /***/ 3522:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
@@ -102197,7 +103617,7 @@ module.exports = eval("require")("fast-crc32c");
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse("{\"$schema\":\"http://json-schema.org/draft-07/schema#\",\"$id\":\"https://raw.githubusercontent.com/epoberezkin/ajv/master/lib/refs/data.json#\",\"description\":\"Meta-schema for $data reference (JSON Schema extension proposal)\",\"type\":\"object\",\"required\":[\"$data\"],\"properties\":{\"$data\":{\"type\":\"string\",\"anyOf\":[{\"format\":\"relative-json-pointer\"},{\"format\":\"json-pointer\"}]}},\"additionalProperties\":false}");
+module.exports = JSON.parse("{\"$schema\":\"http://json-schema.org/draft-07/schema#\",\"$id\":\"https://raw.githubusercontent.com/ajv-validator/ajv/master/lib/refs/data.json#\",\"description\":\"Meta-schema for $data reference (JSON Schema extension proposal)\",\"type\":\"object\",\"required\":[\"$data\"],\"properties\":{\"$data\":{\"type\":\"string\",\"anyOf\":[{\"format\":\"relative-json-pointer\"},{\"format\":\"json-pointer\"}]}},\"additionalProperties\":false}");
 
 /***/ }),
 
@@ -102245,7 +103665,7 @@ module.exports = JSON.parse("{\"9\":\"Tab;\",\"10\":\"NewLine;\",\"33\":\"excl;\
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse("{\"name\":\"google-auth-library\",\"version\":\"6.1.6\",\"author\":\"Google Inc.\",\"description\":\"Google APIs Authentication Client Library for Node.js\",\"engines\":{\"node\":\">=10\"},\"main\":\"./build/src/index.js\",\"types\":\"./build/src/index.d.ts\",\"repository\":\"googleapis/google-auth-library-nodejs.git\",\"keywords\":[\"google\",\"api\",\"google apis\",\"client\",\"client library\"],\"dependencies\":{\"arrify\":\"^2.0.0\",\"base64-js\":\"^1.3.0\",\"ecdsa-sig-formatter\":\"^1.0.11\",\"fast-text-encoding\":\"^1.0.0\",\"gaxios\":\"^4.0.0\",\"gcp-metadata\":\"^4.2.0\",\"gtoken\":\"^5.0.4\",\"jws\":\"^4.0.0\",\"lru-cache\":\"^6.0.0\"},\"devDependencies\":{\"@compodoc/compodoc\":\"^1.1.7\",\"@types/base64-js\":\"^1.2.5\",\"@types/chai\":\"^4.1.7\",\"@types/jws\":\"^3.1.0\",\"@types/lru-cache\":\"^5.0.0\",\"@types/mocha\":\"^8.0.0\",\"@types/mv\":\"^2.1.0\",\"@types/ncp\":\"^2.0.1\",\"@types/node\":\"^10.5.1\",\"@types/sinon\":\"^9.0.0\",\"@types/tmp\":\"^0.2.0\",\"assert-rejects\":\"^1.0.0\",\"c8\":\"^7.0.0\",\"chai\":\"^4.2.0\",\"codecov\":\"^3.0.2\",\"execa\":\"^5.0.0\",\"gts\":\"^2.0.0\",\"is-docker\":\"^2.0.0\",\"karma\":\"^6.0.0\",\"karma-chrome-launcher\":\"^3.0.0\",\"karma-coverage\":\"^2.0.0\",\"karma-firefox-launcher\":\"^2.0.0\",\"karma-mocha\":\"^2.0.0\",\"karma-remap-coverage\":\"^0.1.5\",\"karma-sourcemap-loader\":\"^0.3.7\",\"karma-webpack\":\"^4.0.0\",\"keypair\":\"^1.0.1\",\"linkinator\":\"^2.0.0\",\"mocha\":\"^8.0.0\",\"mv\":\"^2.1.1\",\"ncp\":\"^2.0.0\",\"nock\":\"^13.0.0\",\"null-loader\":\"^4.0.0\",\"puppeteer\":\"^5.0.0\",\"sinon\":\"^9.0.0\",\"tmp\":\"^0.2.0\",\"ts-loader\":\"^8.0.0\",\"typescript\":\"^3.8.3\",\"webpack\":\"^4.20.2\",\"webpack-cli\":\"^4.0.0\",\"@microsoft/api-documenter\":\"^7.8.10\",\"@microsoft/api-extractor\":\"^7.8.10\"},\"files\":[\"build/src\",\"!build/src/**/*.map\"],\"scripts\":{\"test\":\"c8 mocha build/test\",\"clean\":\"gts clean\",\"prepare\":\"npm run compile\",\"lint\":\"gts check\",\"compile\":\"tsc -p .\",\"fix\":\"gts fix\",\"pretest\":\"npm run compile\",\"docs\":\"compodoc src/\",\"samples-test\":\"cd samples/ && npm link ../ && npm test && cd ../\",\"system-test\":\"mocha build/system-test --timeout 60000\",\"presystem-test\":\"npm run compile\",\"webpack\":\"webpack\",\"browser-test\":\"karma start\",\"docs-test\":\"linkinator docs\",\"predocs-test\":\"npm run docs\",\"prelint\":\"cd samples; npm link ../; npm install\",\"precompile\":\"gts clean\",\"api-extractor\":\"api-extractor run --local\",\"api-documenter\":\"api-documenter yaml --input-folder=temp\"},\"license\":\"Apache-2.0\"}");
+module.exports = JSON.parse("{\"_args\":[[\"google-auth-library@7.0.2\",\"/home/robyoung/dev/github/robyoung/throttle\"]],\"_from\":\"google-auth-library@7.0.2\",\"_id\":\"google-auth-library@7.0.2\",\"_inBundle\":false,\"_integrity\":\"sha512-vjyNZR3pDLC0u7GHLfj+Hw9tGprrJwoMwkYGqURCXYITjCrP9HprOyxVV+KekdLgATtWGuDkQG2MTh0qpUPUgg==\",\"_location\":\"/google-auth-library\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"google-auth-library@7.0.2\",\"name\":\"google-auth-library\",\"escapedName\":\"google-auth-library\",\"rawSpec\":\"7.0.2\",\"saveSpec\":null,\"fetchSpec\":\"7.0.2\"},\"_requiredBy\":[\"/@google-cloud/common\",\"/gcs-resumable-upload\"],\"_resolved\":\"https://registry.npmjs.org/google-auth-library/-/google-auth-library-7.0.2.tgz\",\"_spec\":\"7.0.2\",\"_where\":\"/home/robyoung/dev/github/robyoung/throttle\",\"author\":{\"name\":\"Google Inc.\"},\"bugs\":{\"url\":\"https://github.com/googleapis/google-auth-library-nodejs/issues\"},\"dependencies\":{\"arrify\":\"^2.0.0\",\"base64-js\":\"^1.3.0\",\"ecdsa-sig-formatter\":\"^1.0.11\",\"fast-text-encoding\":\"^1.0.0\",\"gaxios\":\"^4.0.0\",\"gcp-metadata\":\"^4.2.0\",\"gtoken\":\"^5.0.4\",\"jws\":\"^4.0.0\",\"lru-cache\":\"^6.0.0\"},\"description\":\"Google APIs Authentication Client Library for Node.js\",\"devDependencies\":{\"@compodoc/compodoc\":\"^1.1.7\",\"@microsoft/api-documenter\":\"^7.8.10\",\"@microsoft/api-extractor\":\"^7.8.10\",\"@types/base64-js\":\"^1.2.5\",\"@types/chai\":\"^4.1.7\",\"@types/jws\":\"^3.1.0\",\"@types/lru-cache\":\"^5.0.0\",\"@types/mocha\":\"^8.0.0\",\"@types/mv\":\"^2.1.0\",\"@types/ncp\":\"^2.0.1\",\"@types/node\":\"^10.5.1\",\"@types/sinon\":\"^9.0.0\",\"@types/tmp\":\"^0.2.0\",\"assert-rejects\":\"^1.0.0\",\"c8\":\"^7.0.0\",\"chai\":\"^4.2.0\",\"codecov\":\"^3.0.2\",\"execa\":\"^5.0.0\",\"gts\":\"^2.0.0\",\"is-docker\":\"^2.0.0\",\"karma\":\"^6.0.0\",\"karma-chrome-launcher\":\"^3.0.0\",\"karma-coverage\":\"^2.0.0\",\"karma-firefox-launcher\":\"^2.0.0\",\"karma-mocha\":\"^2.0.0\",\"karma-remap-coverage\":\"^0.1.5\",\"karma-sourcemap-loader\":\"^0.3.7\",\"karma-webpack\":\"^5.0.0\",\"keypair\":\"^1.0.1\",\"linkinator\":\"^2.0.0\",\"mocha\":\"^8.0.0\",\"mv\":\"^2.1.1\",\"ncp\":\"^2.0.0\",\"nock\":\"^13.0.0\",\"null-loader\":\"^4.0.0\",\"puppeteer\":\"^7.0.0\",\"sinon\":\"^9.0.0\",\"tmp\":\"^0.2.0\",\"ts-loader\":\"^8.0.0\",\"typescript\":\"^3.8.3\",\"webpack\":\"^5.21.2\",\"webpack-cli\":\"^4.0.0\"},\"engines\":{\"node\":\">=10\"},\"files\":[\"build/src\",\"!build/src/**/*.map\"],\"homepage\":\"https://github.com/googleapis/google-auth-library-nodejs#readme\",\"keywords\":[\"google\",\"api\",\"google apis\",\"client\",\"client library\"],\"license\":\"Apache-2.0\",\"main\":\"./build/src/index.js\",\"name\":\"google-auth-library\",\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/googleapis/google-auth-library-nodejs.git\"},\"scripts\":{\"api-documenter\":\"api-documenter yaml --input-folder=temp\",\"api-extractor\":\"api-extractor run --local\",\"browser-test\":\"karma start\",\"clean\":\"gts clean\",\"compile\":\"tsc -p .\",\"docs\":\"compodoc src/\",\"docs-test\":\"linkinator docs\",\"fix\":\"gts fix\",\"lint\":\"gts check\",\"precompile\":\"gts clean\",\"predocs-test\":\"npm run docs\",\"prelint\":\"cd samples; npm link ../; npm install\",\"prepare\":\"npm run compile\",\"presystem-test\":\"npm run compile\",\"pretest\":\"npm run compile\",\"samples-setup\":\"cd samples/ && npm link ../ && npm run setup && cd ../\",\"samples-test\":\"cd samples/ && npm link ../ && npm test && cd ../\",\"system-test\":\"mocha build/system-test --timeout 60000\",\"test\":\"c8 mocha build/test\",\"webpack\":\"webpack\"},\"types\":\"./build/src/index.d.ts\",\"version\":\"7.0.2\"}");
 
 /***/ }),
 
