@@ -10,7 +10,11 @@ async function run(): Promise<void> {
     )
     await mutex.release()
   } catch (error) {
-    core.error(error.message)
+    if (error instanceof Error) {
+      core.error(error.message)
+    } else {
+      core.error(`Unknown error ${error}`)
+    }
     core.setFailed('Failed to release lock')
   }
 }
