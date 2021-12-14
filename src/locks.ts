@@ -1,6 +1,6 @@
 import * as core from '@actions/core'
 import * as github from '@actions/github'
-import {Storage, Bucket, File} from '@google-cloud/storage'
+import {Bucket, File, Storage} from '@google-cloud/storage'
 import {ApiError} from '@google-cloud/common/build/src/util'
 
 interface Lock {
