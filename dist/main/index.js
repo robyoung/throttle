@@ -101,6 +101,7 @@ class GoogleCloudStorageMutex {
             for (;;) {
                 try {
                     yield this.file.save(this.identifier, { resumable: false });
+                    core.info('Acquired lock');
                     return;
                 }
                 catch (e) {
@@ -113,6 +114,7 @@ class GoogleCloudStorageMutex {
                             continue;
                         }
                     }
+                    core.info('Cannot acquire lock, raising');
                     throw e;
                 }
             }

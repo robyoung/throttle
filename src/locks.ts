@@ -79,6 +79,7 @@ export class GoogleCloudStorageMutex implements Lock {
     for (;;) {
       try {
         await this.file.save(this.identifier, {resumable: false})
+        core.info('Acquired lock')
         return
       } catch (e) {
         if (e instanceof ApiError && e.code === 412) {
@@ -90,6 +91,7 @@ export class GoogleCloudStorageMutex implements Lock {
             continue
           }
         }
+        core.info('Cannot acquire lock, raising')
         throw e
       }
     }
