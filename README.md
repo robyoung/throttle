@@ -7,7 +7,7 @@ A GitHub action for serializing jobs across workflow runs and more with Google C
 If you just need to serialize workflow runs within a single workflow you could also use [turnstyle](https://github.com/softprops/turnstyle).
 
 Throttle uses a file in a Google Cloud Storage bucket as a mutex with which you can create
-critical sections that can only have one job running across many workflows. The idea is inspided
+critical sections that can only have one job running across many workflows. The idea is inspired
 by [gcslock](https://github.com/mco-de/gcslock).
 
 ## Contents
