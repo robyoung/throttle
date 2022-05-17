@@ -30,7 +30,7 @@
   "dependencies": {
     "@actions/core": "^1.6.0",
     "@actions/github": "^5.0.0",
-    "@google-cloud/storage": "^5.16.1"
+    "@google-cloud/storage": "^5.20.1"
   },
   "devDependencies": {
     "@types/jest": "^27.0.3",
