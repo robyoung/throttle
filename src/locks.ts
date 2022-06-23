@@ -1,7 +1,7 @@
 import * as core from '@actions/core'
 import * as github from '@actions/github'
 import {Bucket, File, Storage} from '@google-cloud/storage'
-import {ApiError} from '@google-cloud/common/build/src/util'
+import {ApiError} from '@google-cloud/common'
 
 interface Lock {
   acquire(): Promise<void>
