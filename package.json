@@ -28,7 +28,7 @@
   "author": "Rob Young <rob@robyoung.digital>",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "^1.6.0",
+    "@actions/core": "^1.9.1",
     "@actions/github": "^5.0.0",
     "@google-cloud/common": "^4.0.2",
     "@google-cloud/storage": "^6.2.0"
