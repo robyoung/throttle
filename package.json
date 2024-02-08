@@ -12,7 +12,8 @@
     "package-post": "ncc build lib/post.js --out dist/post --source-map --license licenses.txt",
     "package": "npm run package-main && npm run package-post",
     "test": "jest",
-    "all": "npm run build && npm run format && npm run lint && npm run package && npm test"
+    "all": "npm run build && npm run format && npm run lint && npm run package && npm test",
+    "clean": "rimraf dist"
   },
   "repository": {
     "type": "git",
@@ -29,24 +30,27 @@
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.10.0",
-    "@actions/github": "^5.0.0",
-    "@google-cloud/common": "^4.0.2",
-    "@google-cloud/storage": "^6.9.4"
+    "@actions/github": "^6.0.0",
+    "@google-cloud/common": "^5.0.0",
+    "@google-cloud/storage": "^7.0.0"
   },
   "devDependencies": {
-    "@types/jest": "^29.4.0",
-    "@types/node": "^18.0.0",
-    "@typescript-eslint/parser": "^5.8.0",
-    "@vercel/ncc": "^0.34.0",
-    "eslint": "^8.5.0",
-    "eslint-plugin-github": "^4.6.1",
-    "eslint-plugin-jest": "^26.5.3",
-    "jest": "^29.5.0",
-    "jest-circus": "^28.1.1",
+    "@types/jest": "^29.5.0",
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vercel/ncc": "^0.38.0",
+    "eslint": "^8.0.0",
+    "eslint-plugin-github": "^4.10.0",
+    "eslint-plugin-jest": "^27.0.0",
+    "eslint-plugin-prettier": "^5.1.0",
+    "jest": "^29.0.0",
+    "jest-circus": "^29.0.0",
     "js-yaml": "^4.1.0",
-    "prettier": "^2.5.1",
-    "ts-jest": "^29.0.5",
-    "typescript": "^4.5.4",
-    "y18n": ">=4.0.1"
+    "prettier": "^3.0.0",
+    "rimraf": "^5.0.5",
+    "ts-jest": "^29.0.0",
+    "typescript": "^5.0.0",
+    "y18n": "^5.0.5"
   }
 }
